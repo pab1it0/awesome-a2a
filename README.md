@@ -77,11 +77,11 @@ AI clients that can interact with A2A servers:
 
 Official sample implementations from the Google A2A repository.
 
-- [google/A2A/samples/python/agents/google_adk](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk) 🎖️ 🐍 🏠 - An expense reimbursement agent built with Google Agent Development Kit (ADK). Showcases multi-turn interactions and webform handling through the A2A protocol.
+- [google/google_adk](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk) 🎖️ 🐍 🏠 - An expense reimbursement agent built with Google Agent Development Kit (ADK). Showcases multi-turn interactions and webform handling through the A2A protocol.
 
-- [google/A2A/samples/python/agents/langgraph](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph) 🎖️ 🐍 ☁️ - A currency conversion agent built with LangGraph. Showcases multi-turn interactions, tool usage for currency exchange via Frankfurter API, and streaming updates through the A2A protocol.
+- [google/langgraph](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph) 🎖️ 🐍 ☁️ - A currency conversion agent built with LangGraph. Showcases multi-turn interactions, tool usage for currency exchange via Frankfurter API, and streaming updates through the A2A protocol.
 
-- [google/A2A/samples/python/agents/crewai](https://github.com/google/A2A/tree/main/samples/python/agents/crewai) 🎖️ 🐍 ☁️ - An image generation agent built with CrewAI. Showcases text-to-image generation using Google Gemini API and returning images as artifacts through the A2A protocol.
+- [google/crewai](https://github.com/google/A2A/tree/main/samples/python/agents/crewai) 🎖️ 🐍 ☁️ - An image generation agent built with CrewAI. Showcases text-to-image generation using Google Gemini API and returning images as artifacts through the A2A protocol.
 
 ### 🗺️ <a name="location-services"></a>Location Services
 
@@ -93,19 +93,19 @@ A2A servers providing mapping, geocoding, navigation, and other location-based s
 
 A2A servers for business operations, expense management, and other enterprise functions.
 
-*See [google/A2A/samples/python/agents/google_adk](#official-samples) for an example expense reimbursement tool.*
+*See [google/google_adk](#official-samples) for an example expense reimbursement tool.*
 
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
 
-*See [google/A2A/samples/python/agents/crewai](#official-samples) for an example image generation tool.*
+*See [google/crewai](#official-samples) for an example image generation tool.*
 
 ### 💱 <a name="financial-services"></a>Financial Services
 
 A2A servers for financial operations, currency conversion, and financial data.
 
-*See [google/A2A/samples/python/agents/langgraph](#official-samples) for an example currency conversion tool.*
+*See [google/langgraph](#official-samples) for an example currency conversion tool.*
 
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
