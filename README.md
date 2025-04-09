@@ -60,7 +60,11 @@ AI clients that can interact with A2A servers:
 
 ## Server Implementations
 
+* 🎖️ - [Official Samples](#official-samples)
 * 🗺️ - [Location Services](#location-services)
+* 💼 - [Business Tools](#business-tools)
+* 🖼️ - [Image Generation](#image-generation)
+* 💱 - [Financial Services](#financial-services)
 * 🔎 - [Search & Data Extraction](#search-and-data-extraction)
 * 💬 - [Communication Services](#communication-services)
 * 🔄 - [Integration Services](#integration-services)
@@ -69,17 +73,45 @@ AI clients that can interact with A2A servers:
 * 📊 - [Data Services](#data-services)
 * 🚆 - [Travel & Transportation](#travel-and-transportation)
 
+### 🎖️ <a name="official-samples"></a>Official Samples
+
+Official sample implementations from the Google A2A repository.
+
+- [google/A2A/samples/python/agents/google_adk](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk) 🎖️ 🐍 🏠 - An expense reimbursement agent built with Google Agent Development Kit (ADK). Showcases multi-turn interactions and webform handling through the A2A protocol.
+
+- [google/A2A/samples/python/agents/langgraph](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph) 🎖️ 🐍 ☁️ - A currency conversion agent built with LangGraph. Showcases multi-turn interactions, tool usage for currency exchange via Frankfurter API, and streaming updates through the A2A protocol.
+
+- [google/A2A/samples/python/agents/crewai](https://github.com/google/A2A/tree/main/samples/python/agents/crewai) 🎖️ 🐍 ☁️ - An image generation agent built with CrewAI. Showcases text-to-image generation using Google Gemini API and returning images as artifacts through the A2A protocol.
+
 ### 🗺️ <a name="location-services"></a>Location Services
 
 A2A servers providing mapping, geocoding, navigation, and other location-based services.
 
 - [pab1it0/google-maps-a2a](https://github.com/pab1it0/google-maps-a2a) 🐍 ☁️ - An A2A-compliant server that provides Google Maps capabilities including geocoding, reverse geocoding, directions, places search, place details, and distance matrix calculations. Supports multiple input/output formats and provides a standardized agent card for capability discovery.
 
+### 💼 <a name="business-tools"></a>Business Tools
+
+A2A servers for business operations, expense management, and other enterprise functions.
+
+*See [google/A2A/samples/python/agents/google_adk](#official-samples) for an example expense reimbursement tool.*
+
+### 🖼️ <a name="image-generation"></a>Image Generation
+
+A2A servers for generating and manipulating images.
+
+*See [google/A2A/samples/python/agents/crewai](#official-samples) for an example image generation tool.*
+
+### 💱 <a name="financial-services"></a>Financial Services
+
+A2A servers for financial operations, currency conversion, and financial data.
+
+*See [google/A2A/samples/python/agents/langgraph](#official-samples) for an example currency conversion tool.*
+
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
 A2A servers for search, data retrieval, and information extraction.
 
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
+*No additional entries yet. [Contribute](CONTRIBUTING.md)!*
 
 ### 💬 <a name="communication-services"></a>Communication Services
 
@@ -121,7 +153,9 @@ A2A servers for travel planning, booking, and transportation services.
 
 Tools and frameworks for building A2A servers.
 
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
+- [Google Agent Development Kit (ADK)](https://github.com/google/A2A) 🎖️ 🐍 - Google's framework for building A2A-compliant agents.
+- [LangGraph](https://github.com/langchain-ai/langgraph) 🐍 - A framework for building stateful, multi-actor applications with LLMs, with A2A support.
+- [CrewAI](https://github.com/crewai/crewai) 🐍 - Framework for orchestrating role-playing, autonomous AI agents with A2A support.
 
 ## Utilities
 
