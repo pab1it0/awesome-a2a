@@ -1,6 +1,6 @@
-# Contributing to Awesome A2A Servers
+# Contributing to Awesome A2A
 
-Thank you for your interest in contributing to Awesome A2A Servers! This document provides guidelines and instructions for contributing to this curated list.
+Thank you for your interest in contributing to Awesome A2A! This document provides guidelines and instructions for contributing to this curated list.
 
 ## Guidelines
 

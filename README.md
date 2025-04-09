@@ -1,4 +1,4 @@
-# Awesome A2A Servers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome A2A [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of awesome Agent2Agent (A2A) protocol servers. This repository collects and organizes A2A-compliant server implementations to help developers build interoperable AI agent systems.
 
