@@ -110,53 +110,17 @@ A2A servers for financial operations, currency conversion, and financial data.
 
 *See [google/langgraph](#official-samples) for an example currency conversion tool.*
 
-### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
-
-A2A servers for search, data retrieval, and information extraction.
-
-*No additional entries yet. [Contribute](CONTRIBUTING.md)!*
-
-### 🏬 <a name="communication-services"></a>Communication Services
-
-A2A servers for messaging, email, and other communication tools.
-
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
-
-### 🔄 <a name="integration-services"></a>Integration Services
-
-A2A servers that bridge to various APIs, platforms, and services.
-
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
-
 ### 👨‍💻‍ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
 
 - [EmilLindfors/a2a-rs](https://github.com/EmilLindfors/a2a-rs) 🦀 🏠 - A Rust implementation of the A2A protocol that follows idiomatic Rust practices and hexagonal architecture principles. Features both client and server implementations, multiple transport options (HTTP and WebSocket), streaming support, and async/sync interfaces with flexible feature flags.
 
-### 🧠 <a name="knowledge-services"></a>Knowledge Services
-
-A2A servers for knowledge management, document handling, and information extraction.
-
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
-
-### 📊 <a name="data-services"></a>Data Services
-
-A2A servers for data processing, analytics, and database integration.
-
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
-
 ### 🎓 <a name="educational-tools"></a>Educational Tools
 
 A2A servers for education, learning, and training.
 
 - [hope106/multiplication_agent](https://github.com/hope106/multiplication_agent) 🐍 🏠 - A multi-agent system featuring a supervisor agent, a problem generator agent, and an answer provider agent working together to teach multiplication tables. The system demonstrates agent-to-agent communication with WebSocket real-time updates, AI explanation generation via Claude API, and a Vue.js-based web interface.
-
-### 🚆 <a name="travel-and-transportation"></a>Travel & Transportation
-
-A2A servers for travel planning, booking, and transportation services.
-
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
 
 ## Frameworks
 
