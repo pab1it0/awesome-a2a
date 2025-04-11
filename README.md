@@ -131,7 +131,7 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 A2A servers for software development, coding, version control, and DevOps.
 
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
+- [EmilLindfors/a2a-rs](https://github.com/EmilLindfors/a2a-rs) 🦀 🏠 - A Rust implementation of the A2A protocol that follows idiomatic Rust practices and hexagonal architecture principles. Features both client and server implementations, multiple transport options (HTTP and WebSocket), streaming support, and async/sync interfaces with flexible feature flags.
 
 ### 🧠 <a name="knowledge-services"></a>Knowledge Services
 
