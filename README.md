@@ -1,6 +1,6 @@
-![Awesome A2A](./assets/banner.svg)
-
 # Awesome A2A [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+![Awesome A2A](./assets/banner.svg)
 
 A curated list of awesome Agent2Agent (A2A) protocol servers. This repository collects and organizes A2A-compliant server implementations to help developers build interoperable AI agent systems.
 
@@ -29,8 +29,9 @@ AI clients that can interact with A2A servers:
 
 ## Tutorials
 
-* [Getting Started with A2A Protocol](https://github.com/google/A2A)
-* [Building Your First A2A Server](https://github.com/google/A2A)
+* [Agent2Agent Protocol: Getting Started Guide](https://github.com/google/A2A/blob/main/documentation/tutorials/getting-started.md) - Official Google A2A protocol getting started guide
+* [Building A2A-Compliant Agents](https://github.com/google/A2A/blob/main/documentation/tutorials/building-an-agent.md) - Tutorial on creating your first A2A-compliant agent
+* [Agent2Agent Protocol JSON Schema](https://github.com/google/A2A/blob/main/docs/schema/index.md) - Detailed schema documentation for A2A implementation
 
 ## Community
 
