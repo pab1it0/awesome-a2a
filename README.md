@@ -73,6 +73,7 @@ AI clients that can interact with A2A servers:
 * 👨‍💻‍ - [Developer Tools](#developer-tools)
 * 🧠 - [Knowledge Services](#knowledge-services)
 * 📊 - [Data Services](#data-services)
+* 🎓 - [Educational Tools](#educational-tools)
 * 🚆 - [Travel & Transportation](#travel-and-transportation)
 
 ### 👖‍ <a name="official-samples"></a>Official Samples
@@ -144,6 +145,12 @@ A2A servers for knowledge management, document handling, and information extract
 A2A servers for data processing, analytics, and database integration.
 
 *No entries yet. [Contribute](CONTRIBUTING.md)!*
+
+### 🎓 <a name="educational-tools"></a>Educational Tools
+
+A2A servers for education, learning, and training.
+
+- [hope106/multiplication_agent](https://github.com/hope106/multiplication_agent) 🐍 🏠 - A multi-agent system featuring a supervisor agent, a problem generator agent, and an answer provider agent working together to teach multiplication tables. The system demonstrates agent-to-agent communication with WebSocket real-time updates, AI explanation generation via Claude API, and a Vue.js-based web interface.
 
 ### 🚆 <a name="travel-and-transportation"></a>Travel & Transportation
 
