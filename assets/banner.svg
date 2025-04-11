@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F2027"/>
+      <stop offset="50%" stop-color="#203A43"/>
+      <stop offset="100%" stop-color="#2C5364"/>
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rectangle -->
+  <rect width="1200" height="300" fill="url(#bg-gradient)" rx="10" ry="10"/>
+  
+  <!-- Interconnected nodes representing agent communication -->
+  <g transform="translate(100, 150)" stroke="#4CAF50" stroke-width="2" opacity="0.7">
+    <!-- Nodes -->
+    <circle cx="0" cy="0" r="20" fill="#4CAF50" opacity="0.8"/>
+    <circle cx="200" cy="-70" r="15" fill="#4CAF50" opacity="0.8"/>
+    <circle cx="350" cy="30" r="25" fill="#4CAF50" opacity="0.8"/>
+    <circle cx="500" cy="-50" r="18" fill="#4CAF50" opacity="0.8"/>
+    <circle cx="650" cy="20" r="22" fill="#4CAF50" opacity="0.8"/>
+    <circle cx="800" cy="-40" r="16" fill="#4CAF50" opacity="0.8"/>
+    <circle cx="950" cy="10" r="20" fill="#4CAF50" opacity="0.8"/>
+    
+    <!-- Connecting lines representing communication -->
+    <line x1="0" y1="0" x2="200" y2="-70" stroke-dasharray="5,5"/>
+    <line x1="200" y1="-70" x2="350" y2="30" stroke-dasharray="5,5"/>
+    <line x1="350" y1="30" x2="500" y2="-50" stroke-dasharray="5,5"/>
+    <line x1="500" y1="-50" x2="650" y2="20" stroke-dasharray="5,5"/>
+    <line x1="650" y1="20" x2="800" y2="-40" stroke-dasharray="5,5"/>
+    <line x1="800" y1="-40" x2="950" y2="10" stroke-dasharray="5,5"/>
+    
+    <!-- Additional cross-connections to show network effect -->
+    <line x1="0" y1="0" x2="350" y2="30" stroke-dasharray="5,5" opacity="0.5"/>
+    <line x1="200" y1="-70" x2="500" y2="-50" stroke-dasharray="5,5" opacity="0.5"/>
+    <line x1="350" y1="30" x2="650" y2="20" stroke-dasharray="5,5" opacity="0.5"/>
+    <line x1="500" y1="-50" x2="800" y2="-40" stroke-dasharray="5,5" opacity="0.5"/>
+    <line x1="650" y1="20" x2="950" y2="10" stroke-dasharray="5,5" opacity="0.5"/>
+    
+    <!-- Animated data transfer circles -->
+    <circle cx="0" cy="0" r="5" fill="#FFF">
+      <animate attributeName="cx" from="0" to="200" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" from="0" to="-70" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="1" to="0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="200" cy="-70" r="5" fill="#FFF">
+      <animate attributeName="cx" from="200" to="350" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" from="-70" to="30" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="1" to="0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="350" cy="30" r="5" fill="#FFF">
+      <animate attributeName="cx" from="350" to="500" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" from="30" to="-50" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="1" to="0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="500" cy="-50" r="5" fill="#FFF">
+      <animate attributeName="cx" from="500" to="650" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" from="-50" to="20" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="1" to="0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="650" cy="20" r="5" fill="#FFF">
+      <animate attributeName="cx" from="650" to="800" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" from="20" to="-40" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="1" to="0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="800" cy="-40" r="5" fill="#FFF">
+      <animate attributeName="cx" from="800" to="950" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" from="-40" to="10" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="1" to="0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Main Title: Awesome A2A -->
+  <text x="600" y="150" font-family="Montserrat, 'Open Sans', sans-serif" font-weight="bold" font-size="70" text-anchor="middle" fill="url(#text-gradient)">
+    Awesome A2A
+  </text>
+  
+  <!-- Decorative stars to suggest "awesome" -->
+  <g fill="#FFD700">
+    <path d="M180,40 L185,50 L195,52 L185,60 L190,70 L180,65 L170,70 L175,60 L165,52 L175,50 Z" opacity="0.8"/>
+    <path d="M1020,40 L1025,50 L1035,52 L1025,60 L1030,70 L1020,65 L1010,70 L1015,60 L1005,52 L1015,50 Z" opacity="0.8"/>
+    <path d="M100,240 L105,250 L115,252 L105,260 L110,270 L100,265 L90,270 L95,260 L85,252 L95,250 Z" opacity="0.6"/>
+    <path d="M1100,240 L1105,250 L1115,252 L1105,260 L1110,270 L1100,265 L1090,270 L1095,260 L1085,252 L1095,250 Z" opacity="0.6"/>
+  </g>
+</svg>
