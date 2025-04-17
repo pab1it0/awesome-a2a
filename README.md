@@ -163,6 +163,8 @@ Tools and frameworks for building A2A servers.
 
 Auxiliary tools that help with A2A server development, testing, and deployment.
 
+- [TheRaLabs/legion-a2a](https://github.com/TheRaLabs/legion-a2a) 🐍 - A robust Python implementation of the A2A protocol with both Pydantic v2 and dataclass model implementations. Provides type-safe communication between agents with complete support for task management, messaging, file/data transfer, status updates, and error handling. Maintained by Legion AI.
+
 - [pcingola/a2a_min](https://github.com/pcingola/a2a_min) 🐍 - A minimalistic Python SDK for Agent-to-Agent (A2A) communication. Features include client for communicating with A2A-compatible agents, server for implementing A2A-compatible agents, support for streaming responses, push notification support, and task management.
 
 ## Contributing
