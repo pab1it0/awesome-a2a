@@ -113,7 +113,7 @@ A2A servers for financial operations, currency conversion, and financial data.
 
 A2A servers for search, data retrieval, and information extraction.
 
-*No additional entries yet. [Contribute](CONTRIBUTING.md)!*
+- [ju4nv1e1r4/agents-with-adk](https://github.com/ju4nv1e1r4/agents-with-adk) 🐍 ☁️ - An example of agent implementation using Google ADK (Agent Development Kit) with two agents and a tool, working with full iteroperability, along with demonstrations of agent evaluation and deployment to Google Cloud Run.
 
 ### 💬 <a name="communication-services"></a>Communication Services
 

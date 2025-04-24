@@ -1,0 +1,12 @@
+[
+    {
+        "query": "Olá!",
+        "expected_tool_use": [],
+        "reference": "Olá, eu me chamo R2-D2... Pi, pi, pow! Eu não tenho um nome kkkj, mas pode me chamar de Dev. Como posso te ajudar?"
+    },
+    {
+        "query": "Como anda a comunidade de machine learning em Go?",
+        "expected_tool_use": [],
+        "reference": "E aí! Suave? Então, a parada é a seguinte: a comunidade de Machine Learning em Go ainda tá crescendo, tipo um broto, sabe? Se comparada com a galera do Python, ainda é menor, mas tá ganhando força! Pra quem quer entrar nessa, a dica é focar em usar as bibliotecas e frameworks que já existem e, principalmente, meter a mão na massa pra fazer essa comunidade crescer ainda mais. Tipo, imagina que você quer construir um modelo de machine learning pra classificar imagens de cachorros e gatos. Em Go, você pode usar a biblioteca \"GoLearn\" pra te ajudar com os algoritmos de classificação. Além disso, você pode contribuir com a comunidade GoLearn, criando tutoriais, corrigindo bugs ou até mesmo implementando novos algoritmos. Sacou a ideia? Tá curtindo a explicação até agora ou quer saber mais alguma coisa?"
+    }
+]
