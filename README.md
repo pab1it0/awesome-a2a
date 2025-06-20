@@ -132,6 +132,7 @@ A2A servers that bridge to various APIs, platforms, and services.
 A2A servers for software development, coding, version control, and DevOps.
 
 - [EmilLindfors/a2a-rs](https://github.com/EmilLindfors/a2a-rs) 🦀 🏠 - A Rust implementation of the A2A protocol that follows idiomatic Rust practices and hexagonal architecture principles. Features both client and server implementations, multiple transport options (HTTP and WebSocket), streaming support, and async/sync interfaces with flexible feature flags.
+- [k-jarzyna/adk-modular-architecture](https://github.com/k-jarzyna/adk-modular-architecture) 🐍 🏠 - A flexible, multi-agent system for automating the presales process using Google's Agent Development Kit.
 
 ### 🧠 <a name="knowledge-services"></a>Knowledge Services
 
