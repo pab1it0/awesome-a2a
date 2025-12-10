@@ -169,6 +169,8 @@ Auxiliary tools that help with A2A server development, testing, and deployment.
 
 - [pcingola/a2a_min](https://github.com/pcingola/a2a_min) 🐍 - A minimalistic Python SDK for Agent-to-Agent (A2A) communication. Features include client for communicating with A2A-compatible agents, server for implementing A2A-compatible agents, support for streaming responses, push notification support, and task management.
 
+- [Gatana](https://www.gatana.ai/) ☁️ - An MCP gateway for Agent-to-Agent systems. Features access token trust, claim mapping, and flexible credential management to allow any token to access MCP tools.
+
 ## Contributing
 
 Your contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) before submitting a pull request.
