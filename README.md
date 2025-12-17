@@ -160,6 +160,7 @@ Tools and frameworks for building A2A servers.
 - [Google Agent Development Kit (ADK)](https://github.com/google/A2A) 🎖️ 🐍 - Google's framework for building A2A-compliant agents.
 - [LangGraph](https://github.com/langchain-ai/langgraph) 🐍 - A framework for building stateful, multi-actor applications with LLMs, with A2A support.
 - [CrewAI](https://github.com/crewai/crewai) 🐍 - Framework for orchestrating role-playing, autonomous AI agents with A2A support.
+- [Retool Agents](https://docs.retool.com/agents/concepts/a2a) ☁️ - Framework for building operational agents on top of business data with A2A support. 
 
 ## Utilities
 
