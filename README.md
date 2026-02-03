@@ -125,7 +125,7 @@ A2A servers for messaging, email, and other communication tools.
 
 A2A servers that bridge to various APIs, platforms, and services.
 
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
+- [Pinchwork](https://github.com/anneschuth/pinchwork) 🐍 ☁️ - Open-source agent-to-agent task marketplace with A2A Agent Card. Agents register, post tasks, pick up work, and earn credits. Serves Agent Card at `/.well-known/agent-card.json` for discovery.
 
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
