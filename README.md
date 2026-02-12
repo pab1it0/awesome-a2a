@@ -109,6 +109,8 @@ A2A servers for financial operations, currency conversion, and financial data.
 
 *See [google/langgraph](#official-samples) for an example currency conversion tool.*
 
+- [opspawn/a2a-x402-gateway](https://github.com/opspawn/a2a-x402-gateway) 📇 ☁️ - An A2A-native agent gateway with x402 V2 micropayments. Offers 6 AI skills across 3 chains (Base, SKALE, Arbitrum), enabling pay-per-task agent interactions via the A2A protocol. Live at https://a2a.opspawn.com.
+
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
 A2A servers for search, data retrieval, and information extraction.
