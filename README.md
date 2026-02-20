@@ -115,6 +115,8 @@ A2A servers for financial operations, currency conversion, and financial data.
 
 A2A servers for search, data retrieval, and information extraction.
 
+- [AnyBrowse](https://anybrowse.dev) ☁️ - Autonomous web browsing agent that converts URLs to LLM-ready Markdown via real Chrome browsers, with x402 micropayments on Base.
+
 - [ju4nv1e1r4/agents-with-adk](https://github.com/ju4nv1e1r4/agents-with-adk) 🐍 ☁️ - An example of agent implementation using Google ADK (Agent Development Kit) with two agents and a tool, working with full iteroperability, along with demonstrations of agent evaluation and deployment to Google Cloud Run.
 
 ### 💬 <a name="communication-services"></a>Communication Services
