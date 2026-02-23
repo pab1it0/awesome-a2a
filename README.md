@@ -163,6 +163,7 @@ Tools and frameworks for building A2A servers.
 - [LangGraph](https://github.com/langchain-ai/langgraph) 🐍 - A framework for building stateful, multi-actor applications with LLMs, with A2A support.
 - [CrewAI](https://github.com/crewai/crewai) 🐍 - Framework for orchestrating role-playing, autonomous AI agents with A2A support.
 - [Retool Agents](https://docs.retool.com/agents/concepts/a2a) ☁️ - Framework for building operational agents on top of business data with A2A support. 
+- [OpenAgents](https://github.com/openagents-org/openagents) 🐍 - Open-source multi-agent platform with native A2A protocol support, plus MCP, WebSocket, gRPC, and HTTP. Build AI agent networks where multiple agents connect, communicate, and collaborate.
 
 ## Utilities
 
