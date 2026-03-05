@@ -97,6 +97,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 *See [google/google_adk](#official-samples) for an example expense reimbursement tool.*
 
+- [geter-andru/mcp-server-andru-intelligence](https://github.com/geter-andru/mcp-server-andru-intelligence) 📇 ☁️ - Revenue intelligence for technical SaaS founders. 18 tools for ICP scoring, persona simulation, competitive positioning, deal classification, investor matching, and founder wellness. AP2 payment-capable. [Agent Card](https://hs-andru-test.onrender.com/.well-known/agent.json)
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
