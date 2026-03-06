@@ -153,7 +153,7 @@ A2A servers for knowledge management, document handling, and information extract
 
 A2A servers for data processing, analytics, and database integration.
 
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
+- [Cerebrus Pulse](https://cerebruspulse.xyz) 🐍 ☁️ 🐧 - Institutional-grade crypto derivatives intelligence via A2A + x402 micropayments. Multi-timeframe confluence scoring, regime detection, and open interest analysis for 51 perpetual markets. Pay-per-query with USDC on Base. Agent Card: [api.cerebruspulse.xyz/.well-known/agent-card.json](https://api.cerebruspulse.xyz/.well-known/agent-card.json)
 
 ### 🚆 <a name="travel-and-transportation"></a>Travel & Transportation
 
