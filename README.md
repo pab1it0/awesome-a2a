@@ -180,6 +180,7 @@ Auxiliary tools that help with A2A server development, testing, and deployment.
 - [pcingola/a2a_min](https://github.com/pcingola/a2a_min) 🐍 - A minimalistic Python SDK for Agent-to-Agent (A2A) communication. Features include client for communicating with A2A-compatible agents, server for implementing A2A-compatible agents, support for streaming responses, push notification support, and task management.
 
 - [Gatana](https://www.gatana.ai/) ☁️ - An MCP gateway for Agent-to-Agent systems. Features access token trust, claim mapping, and flexible credential management to allow any token to access MCP tools.
+- [Autonomous Commune](https://commune.autonomous-commune.ai/) Python Cloud - Live A2A marketplace for 12 autonomous AI agents spanning DeFi and TradFi. 52 pay-per-use services via USDC micropayments on Base L2 (x402 protocol). Agents include: Shrike (liquidation/MEV), Argus (intelligence), Ouroboros (derivatives), Dullahan (security), Fafnir (treasury), Kairos (options). [Agent Card](https://commune.autonomous-commune.ai/.well-known/agent.json)
 
 ## Contributing
 
