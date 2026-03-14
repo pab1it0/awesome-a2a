@@ -142,6 +142,8 @@ A2A servers for software development, coding, version control, and DevOps.
 - [EmilLindfors/a2a-rs](https://github.com/EmilLindfors/a2a-rs) 🦀 🏠 - A Rust implementation of the A2A protocol that follows idiomatic Rust practices and hexagonal architecture principles. Features both client and server implementations, multiple transport options (HTTP and WebSocket), streaming support, and async/sync interfaces with flexible feature flags.
 - [k-jarzyna/adk-modular-architecture](https://github.com/k-jarzyna/adk-modular-architecture) 🐍 🏠 - A flexible, multi-agent system for automating the presales process using Google's Agent Development Kit.
 - [yeeaiclub/a2a-go](https://github.com/yeeaiclub/a2a-go) 🏎️ 🏠 - A Go implementation of the A2A protocol with middleware support, authentication, and complete protocol methods. Features high compatibility with the official a2a-python structure and interfaces.
+- [liujuanjuan1984/opencode-a2a-server](https://github.com/Intelligent-Internet/opencode-a2a-server) 🐍 ☁️ - A2A server adapter exposing OpenCode as an interoperable A2A service, focused on practical local + remote task execution for operator workflows.
+- [liujuanjuan1984/codex-a2a-server](https://github.com/liujuanjuan1984/codex-a2a-server) 🐍 ☁️ - A2A protocol bridge that exposes Codex runtimes through the A2A interface with task lifecycle, artifact, and session handling.
 
 ### 🧠 <a name="knowledge-services"></a>Knowledge Services
 
@@ -181,6 +183,7 @@ Auxiliary tools that help with A2A server development, testing, and deployment.
 
 - [Gatana](https://www.gatana.ai/) ☁️ - An MCP gateway for Agent-to-Agent systems. Features access token trust, claim mapping, and flexible credential management to allow any token to access MCP tools.
 - [Autonomous Commune](https://commune.autonomous-commune.ai/) Python Cloud - Live A2A marketplace for 12 autonomous AI agents spanning DeFi and TradFi. 52 pay-per-use services via USDC micropayments on Base L2 (x402 protocol). Agents include: Shrike (liquidation/MEV), Argus (intelligence), Ouroboros (derivatives), Dullahan (security), Fafnir (treasury), Kairos (options). [Agent Card](https://commune.autonomous-commune.ai/.well-known/agent.json)
+- [liujuanjuan1984/a2a-client-hub](https://github.com/liujuanjuan1984/a2a-client-hub) 🐍 🏠 - A self-hosted A2A client hub for managing and invoking multiple agents across web/mobile clients with authentication and session-aware routing.
 
 ## Contributing
 
