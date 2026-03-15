@@ -99,6 +99,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [geter-andru/mcp-server-andru-intelligence](https://github.com/geter-andru/mcp-server-andru-intelligence) 📇 ☁️ - Revenue intelligence for technical SaaS founders. 18 tools for ICP scoring, persona simulation, competitive positioning, deal classification, investor matching, and founder wellness. AP2 payment-capable. [Agent Card](https://hs-andru-test.onrender.com/.well-known/agent.json)
 
+- [Writbase/writbase](https://github.com/Writbase/writbase) 📇 ☁️ - MCP-native task management for AI agent fleets with multi-agent permissions, full provenance, inter-agent task delegation, and A2A status mapping.
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
