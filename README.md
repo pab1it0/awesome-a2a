@@ -145,8 +145,8 @@ A2A servers for software development, coding, version control, and DevOps.
 - [k-jarzyna/adk-modular-architecture](https://github.com/k-jarzyna/adk-modular-architecture) 🐍 🏠 - A flexible, multi-agent system for automating the presales process using Google's Agent Development Kit.
 - [yeeaiclub/a2a-go](https://github.com/yeeaiclub/a2a-go) 🏎️ 🏠 - A Go implementation of the A2A protocol with middleware support, authentication, and complete protocol methods. Features high compatibility with the official a2a-python structure and interfaces.
 - [Swival/swival](https://github.com/Swival/swival) 🐍 ☁️ 🏠 - A CLI coding agent with full A2A v1.0 client and server support. Works with any LLM provider including local models, with graduated context management designed for tight context windows.
-- [Intelligent-Internet/opencode-a2a](https://github.com/Intelligent-Internet/opencode-a2a) 🐍 ☁️ - A2A server adapter exposing OpenCode as an interoperable A2A service, focused on practical local + remote task execution for operator workflows.
-- [liujuanjuan1984/codex-a2a](https://github.com/liujuanjuan1984/codex-a2a) 🐍 ☁️ - A2A protocol bridge that exposes Codex runtimes through the A2A interface with task lifecycle, artifact, and session handling.
+- [Intelligent-Internet/opencode-a2a](https://github.com/Intelligent-Internet/opencode-a2a) 🐍 ☁️ - Full A2A Protocol implementation exposing OpenCode as an interoperable A2A service, focused on practical local + remote task execution for operator workflows.
+- [liujuanjuan1984/codex-a2a](https://github.com/liujuanjuan1984/codex-a2a) 🐍 ☁️ - Full A2A Protocol implementation that exposes Codex runtimes through the A2A interface with task lifecycle, artifact, and session handling.
 
 ### 🧠 <a name="knowledge-services"></a>Knowledge Services
 
