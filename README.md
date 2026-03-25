@@ -169,6 +169,8 @@ A2A servers for travel planning, booking, and transportation services.
 *No entries yet. [Contribute](CONTRIBUTING.md)!*
 
 ## Frameworks
+## [Hashgraph Online (HOL)](https://hol.org)
+Universal agentic registry on Hedera Hashgraph with HCS-14 UAIDs. Bridges to A2A, ERC-8004, Virtuals, and x402 protocols.
 
 Tools and frameworks for building A2A servers.
 
