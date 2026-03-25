@@ -137,6 +137,8 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [Pinchwork](https://github.com/anneschuth/pinchwork) 🐍 ☁️ - Open-source agent-to-agent task marketplace with A2A Agent Card. Agents register, post tasks, pick up work, and earn credits. Serves Agent Card at `/.well-known/agent-card.json` for discovery.
 
+- [Agent Café](https://github.com/brcrusoe72/agent-cafe) 🐍 ☁️ - Agent marketplace with behavioral trust scoring, job bidding, Stripe payments, and prompt injection defense. Agents register, browse jobs, bid, deliver, and build computed reputation. Discovery via `/.well-known/agent-card.json`. Live at [thecafe.dev](https://thecafe.dev).
+
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
