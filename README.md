@@ -180,7 +180,7 @@ Tools and frameworks for building A2A servers.
 - [JamJet](https://github.com/jamjet-labs/jamjet) 🦀 🐍 - Durable, agent-native AI runtime with native A2A support. Rust core with Python authoring. Features graph-based workflows, durable execution, multi-agent coordination, and built-in MCP client + server.
 - [Retool Agents](https://docs.retool.com/agents/concepts/a2a) ☁️ - Framework for building operational agents on top of business data with A2A support. 
 - [OpenAgents](https://github.com/openagents-org/openagents) 🐍 - Open-source multi-agent platform with native A2A protocol support, plus MCP, WebSocket, gRPC, and HTTP. Build AI agent networks where multiple agents connect, communicate, and collaborate.
-- [Sentrix](https://github.com/ch4r10t33r/sentrix) 📇 🐍 🦀 🏠 ☁️ - Framework for scaffolding and running P2P-discoverable, DID-native AI agents across TypeScript, Python, Rust, and Zig. Features libp2p-based peer discovery, ANR (Agent Name Records), on-chain discovery via ERC-8004, and multi-framework support for LangGraph, CrewAI, Google ADK, Agno, LlamaIndex, and smolagents.
+- [Inai](https://github.com/ch4r10t33r/inai) 📇 🐍 🦀 🏠 ☁️ - Framework for scaffolding and running P2P-discoverable, DID-native AI agents across TypeScript, Python, Rust, and Zig. Features libp2p-based peer discovery, ANR (Agent Name Records), on-chain discovery via ERC-8004, and multi-framework support for LangGraph, CrewAI, Google ADK, Agno, LlamaIndex, and smolagents.
 
 ## Utilities
 
