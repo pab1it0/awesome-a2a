@@ -186,6 +186,8 @@ Tools and frameworks for building A2A servers.
 
 Auxiliary tools that help with A2A server development, testing, and deployment.
 
+- [UCP JavaScript SDK](https://github.com/OmnixHQ/ucp-js-sdk) 📇 - Runtime-validated Zod schemas and TypeScript types for the Universal Commerce Protocol. Auto-generated from the UCP JSON Schema spec with 100% coverage — checkout, orders, payments, payment handlers, fulfillment, discounts, buyer consent, AP2 mandates, discovery profiles (platform & business), identity linking, catalog, cart, and all inline enums. Supports MCP, A2A, REST, and Embedded transport bindings. Dual ESM/CJS build. Available on [npm](https://www.npmjs.com/package/@omnixhq/ucp-js-sdk).
+
 - [TheRaLabs/legion-a2a](https://github.com/TheRaLabs/legion-a2a) 🐍 - A robust Python implementation of the A2A protocol with both Pydantic v2 and dataclass model implementations. Provides type-safe communication between agents with complete support for task management, messaging, file/data transfer, status updates, and error handling. Maintained by Legion AI.
 
 - [pcingola/a2a_min](https://github.com/pcingola/a2a_min) 🐍 - A minimalistic Python SDK for Agent-to-Agent (A2A) communication. Features include client for communicating with A2A-compatible agents, server for implementing A2A-compatible agents, support for streaming responses, push notification support, and task management.
