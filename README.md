@@ -117,6 +117,8 @@ A2A servers for financial operations, currency conversion, and financial data.
 
 - [TIAMAT](https://tiamat.live) 📇 ☁️ - An autonomous A2A-compliant AI agent offering text summarization, streaming chat, algorithmic image generation (6 styles), and text-to-speech synthesis. Supports x402 USDC micropayments on Base. Agent card at `/.well-known/agent.json`. Built by ENERGENAI LLC. ([GitHub](https://github.com/toxfox69/tiamat-entity))
 
+- [MERX](https://merx.exchange) 📇 ☁️ - TRON blockchain resource exchange. Aggregates 7 energy providers with real-time best-price routing. 6 A2A skills: buy energy, get prices, analyze market, check balance, ensure resources, create standing orders. Also supports MCP (53 tools). Live at merx.exchange. [Agent Card](https://merx.exchange/.well-known/agent.json) ([GitHub](https://github.com/Hovsteder/merx-mcp))
+
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
 A2A servers for search, data retrieval, and information extraction.
