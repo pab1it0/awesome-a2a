@@ -101,6 +101,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [Writbase/writbase](https://github.com/Writbase/writbase) 📇 ☁️ - MCP-native task management for AI agent fleets with multi-agent permissions, full provenance, inter-agent task delegation, and A2A status mapping.
 
+- [Ambr](https://ambr.run) 📇 ☁️ - Legal contract management for AI agents. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable legal text + machine-parsable JSON, SHA-256 linked). 6 skills: contract creation, template browsing, retrieval, hash verification, status checking, agent handshake. Supports API key and x402 USDC payment. [Agent Card](https://getamber.dev/.well-known/agent.json) ([Platform](https://getamber.dev))
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
