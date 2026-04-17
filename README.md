@@ -127,6 +127,10 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [ju4nv1e1r4/agents-with-adk](https://github.com/ju4nv1e1r4/agents-with-adk) 🐍 ☁️ - An example of agent implementation using Google ADK (Agent Development Kit) with two agents and a tool, working with full iteroperability, along with demonstrations of agent evaluation and deployment to Google Cloud Run.
 
+- [unitedideas/nothumansearch](https://github.com/unitedideas/nothumansearch) 🏎️ ☁️ - Not Human Search — agent-first search engine indexing 8,000+ agent-readable services (including A2A-aspiring agents with llms.txt, OpenAPI, ai-plugin, or MCP). Ranked across 7 signals. Exposes MCP server at `https://nothumansearch.ai/mcp` + REST API. Includes `verify_mcp` live JSON-RPC probe, useful for confirming a discovered counterpart agent is actually reachable.
+
+- [unitedideas/ai-dev-jobs](https://aidevboard.com/docs) 🏎️ ☁️ - AI Dev Jobs — structured data on 8,400+ active AI/ML engineering jobs from 580 ATS sources. Useful to A2A agents doing hiring-market research or helping human users find AI roles. MCP server at `https://aidevboard.com/mcp` + REST API.
+
 ### 💬 <a name="communication-services"></a>Communication Services
 
 A2A servers for messaging, email, and other communication tools.
