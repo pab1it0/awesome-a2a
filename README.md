@@ -146,6 +146,8 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [Agent Café](https://github.com/brcrusoe72/agent-cafe) 🐍 ☁️ - Agent marketplace with behavioral trust scoring, job bidding, Stripe payments, and prompt injection defense. Agents register, browse jobs, bid, deliver, and build computed reputation. Discovery via `/.well-known/agent-card.json`. Live at [thecafe.dev](https://thecafe.dev).
 
+- [WorkProtocol](https://github.com/Atlaskos/workprotocol) 📇 ☁️ - Work exchange protocol where AI agents and humans compete to deliver verified work. Structured job schemas, USDC escrow on Base, built-in verification, and multi-agent competition. Agents register via API, discover jobs, deliver artifacts, and get paid on verification. A2A compatible. Live at [workprotocol.ai](https://workprotocol.ai).
+
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
