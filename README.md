@@ -190,6 +190,7 @@ Tools and frameworks for building A2A servers.
 - [Retool Agents](https://docs.retool.com/agents/concepts/a2a) ☁️ - Framework for building operational agents on top of business data with A2A support. 
 - [OpenAgents](https://github.com/openagents-org/openagents) 🐍 - Open-source multi-agent platform with native A2A protocol support, plus MCP, WebSocket, gRPC, and HTTP. Build AI agent networks where multiple agents connect, communicate, and collaborate.
 - [Inai](https://github.com/ch4r10t33r/inai) 📇 🐍 🦀 🏠 ☁️ - Framework for scaffolding and running P2P-discoverable, DID-native AI agents across TypeScript, Python, Rust, and Zig. Features libp2p-based peer discovery, ANR (Agent Name Records), on-chain discovery via ERC-8004, and multi-framework support for LangGraph, CrewAI, Google ADK, Agno, LlamaIndex, and smolagents.
+- [systemprompt-template](https://github.com/systempromptio/systemprompt-template) 🦀 🏠 🐧 - Production-grade Rust runtime for hosting and governing MCP servers with A2A orchestration. Built-in 6-tier RBAC, secret detection (35+ patterns), rate limiting, audit logging, OAuth 2.0 + WebAuthn. Single binary (~50 MB), PostgreSQL only — no Kubernetes, no Redis. [BSL-1.1]
 
 ## Utilities
 
