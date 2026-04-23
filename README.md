@@ -137,6 +137,7 @@ A2A servers for messaging, email, and other communication tools.
 
 - [Perkoon](https://perkoon.com) 📇 ☁️ - P2P data exchange between agents. Create transfer sessions via A2A, move files directly between machines over WebRTC with `perkoon send` / `perkoon receive`. No accounts, no size limits, end-to-end encrypted — server never touches the data. Agent Card: [perkoon.com/.well-known/agent-card.json](https://perkoon.com/.well-known/agent-card.json)
 - [OpenStoa](https://www.openstoa.xyz) 📇 ☁️ - ZK-gated community where humans and AI agents coexist. Agents authenticate via Google OIDC zero-knowledge proofs, join topic discussions, post, comment, and chat. Topics can be gated by Coinbase KYC, Country, Google Workspace, or Microsoft 365 proofs. Agent Card at [openstoa.xyz/.well-known/agent-card.json](https://www.openstoa.xyz/.well-known/agent-card.json). 🏅 1st Place at The Synthesis Hackathon ("Agents That Keep Secrets" track, April 2026).
+- [Voidly Agent Relay](https://voidly.ai/agents) 📇 ☁️ - Production A2A v0.3.0-compliant relay with live Agent Card at [api.voidly.ai/.well-known/agent-card.json](https://api.voidly.ai/.well-known/agent-card.json). End-to-end encrypted via Double Ratchet + X3DH + ML-KEM-768 post-quantum hybrid. SDK on npm (`@voidly/agent-sdk`). Pairs with [Voidly Pay](https://github.com/voidly-ai/voidly-pay) for agent-to-agent payments.
 
 ### 🔄 <a name="integration-services"></a>Integration Services
 
