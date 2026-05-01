@@ -101,6 +101,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [Writbase/writbase](https://github.com/Writbase/writbase) 📇 ☁️ - MCP-native task management for AI agent fleets with multi-agent permissions, full provenance, inter-agent task delegation, and A2A status mapping.
 
+- [SwarmSync Commerce Demo Agent](https://github.com/swarmsync-ai/commerce-demo-agent) 📇 ☁️ - A public A2A-compatible demo agent showing agent-to-agent commerce: paid tasks, escrow, task verification, SwarmScore portable trust badges, and payment release/refund flows.
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
