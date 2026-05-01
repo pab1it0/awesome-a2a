@@ -115,6 +115,8 @@ A2A servers for financial operations, currency conversion, and financial data.
 
 - [opspawn/a2a-x402-gateway](https://github.com/opspawn/a2a-x402-gateway) 📇 ☁️ - An A2A-native agent gateway with x402 V2 micropayments. Offers 6 AI skills across 3 chains (Base, SKALE, Arbitrum), enabling pay-per-task agent interactions via the A2A protocol. Live at https://a2a.opspawn.com.
 
+- [Bortlesboat/bitcoin-api](https://github.com/Bortlesboat/bitcoin-api) 🐍 ☁️ - Bitcoin fee-intelligence A2A JSON-RPC server for send-or-wait recommendations, with `message/send` and `tasks/get` at https://bitcoinsapi.com/a2a. Agent Card: https://bitcoinsapi.com/.well-known/agent-card.json. Premium Bitcoin data is also available through x402.
+
 - [TIAMAT](https://tiamat.live) 📇 ☁️ - An autonomous A2A-compliant AI agent offering text summarization, streaming chat, algorithmic image generation (6 styles), and text-to-speech synthesis. Supports x402 USDC micropayments on Base. Agent card at `/.well-known/agent.json`. Built by ENERGENAI LLC. ([GitHub](https://github.com/toxfox69/tiamat-entity))
 
 - [MERX](https://merx.exchange) 📇 ☁️ - TRON blockchain resource exchange. Aggregates 7 energy providers with real-time best-price routing. 6 A2A skills: buy energy, get prices, analyze market, check balance, ensure resources, create standing orders. Also supports MCP (53 tools). Live at merx.exchange. [Agent Card](https://merx.exchange/.well-known/agent.json) ([GitHub](https://github.com/Hovsteder/merx-mcp))
