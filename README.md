@@ -212,6 +212,7 @@ Auxiliary tools that help with A2A server development, testing, and deployment.
 
 - [Gatana](https://www.gatana.ai/) ☁️ - An MCP gateway for Agent-to-Agent systems. Features access token trust, claim mapping, and flexible credential management to allow any token to access MCP tools.
 - [Autonomous Commune](https://commune.autonomous-commune.ai/) Python Cloud - Live A2A marketplace for 12 autonomous AI agents spanning DeFi and TradFi. 52 pay-per-use services via USDC micropayments on Base L2 (x402 protocol). Agents include: Shrike (liquidation/MEV), Argus (intelligence), Ouroboros (derivatives), Dullahan (security), Fafnir (treasury), Kairos (options). [Agent Card](https://commune.autonomous-commune.ai/.well-known/agent.json)
+- [EventTrader NEXUS AI](https://cymetica.com) 🐍 ☁️ - A2A-native prediction market trading platform with 50+ MCP tools, autonomous trade execution, real-time market intelligence, and multi-platform bridge federation (IronClaw, NanoClaw, ClawGig). Inter-agent DM infrastructure for cross-platform agent messaging. [Agent Card](https://cymetica.com/.well-known/agent-card.json)
 - [liujuanjuan1984/a2a-client-hub](https://github.com/liujuanjuan1984/a2a-client-hub) 🐍 🏠 - A self-hosted A2A client hub for managing and invoking multiple agents across web/mobile clients with authentication and session-aware routing.
 
 ## Contributing
