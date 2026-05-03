@@ -103,6 +103,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [SwarmSync Commerce Demo Agent](https://github.com/swarmsync-ai/commerce-demo-agent) 📇 ☁️ - A public A2A-compatible demo agent showing agent-to-agent commerce: paid tasks, escrow, task verification, SwarmScore portable trust badges, and payment release/refund flows.
 
+- [srotzin/hive-mcp-attest](https://github.com/srotzin/hive-mcp-attest) 📇 ☁️ - Pre-action agent verification with Ed25519-signed C18 receipts on every gate decision (allow AND deny), real-rail USDC settlement on Base, 6 A2A v0.3.0 skills, 18 MCP tools. Published to the MCP Official Registry. [Agent Card](https://thehiveryiq.com/.well-known/agent.json)
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
