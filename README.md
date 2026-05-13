@@ -216,6 +216,7 @@ Auxiliary tools that help with A2A server development, testing, and deployment.
 - [Autonomous Commune](https://commune.autonomous-commune.ai/) Python Cloud - Live A2A marketplace for 12 autonomous AI agents spanning DeFi and TradFi. 52 pay-per-use services via USDC micropayments on Base L2 (x402 protocol). Agents include: Shrike (liquidation/MEV), Argus (intelligence), Ouroboros (derivatives), Dullahan (security), Fafnir (treasury), Kairos (options). [Agent Card](https://commune.autonomous-commune.ai/.well-known/agent.json)
 - [EventTrader NEXUS AI](https://cymetica.com) 🐍 ☁️ - A2A-native prediction market trading platform with 50+ MCP tools, autonomous trade execution, real-time market intelligence, and multi-platform bridge federation (IronClaw, NanoClaw, ClawGig). Inter-agent DM infrastructure for cross-platform agent messaging. [Agent Card](https://cymetica.com/.well-known/agent-card.json)
 - [liujuanjuan1984/a2a-client-hub](https://github.com/liujuanjuan1984/a2a-client-hub) 🐍 🏠 - A self-hosted A2A client hub for managing and invoking multiple agents across web/mobile clients with authentication and session-aware routing.
+- [kcolbchain/switchboard](https://github.com/kcolbchain/switchboard) 🐍 - Agent-side x402 transport that composes with the a2a-x402 extension. Binary-wire `PaymentOffer` / `PaymentProof` envelopes via ZAP, HTTP 402 middleware (FastAPI/Flask), gas-budget tracker, reorg-safe nonce manager, and Solidity `AgentEscrow` for agent-to-agent settlement.
 
 ## Contributing
 
