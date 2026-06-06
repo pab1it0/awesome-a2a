@@ -126,6 +126,7 @@ A2A servers for financial operations, currency conversion, and financial data.
 - [MERX](https://merx.exchange) 📇 ☁️ - TRON blockchain resource exchange. Aggregates 7 energy providers with real-time best-price routing. 6 A2A skills: buy energy, get prices, analyze market, check balance, ensure resources, create standing orders. Also supports MCP (53 tools). Live at merx.exchange. [Agent Card](https://merx.exchange/.well-known/agent.json) ([GitHub](https://github.com/Hovsteder/merx-mcp))
 
 - [AlgoVoi](https://algovoi.co.uk) 🐍 ☁️ - Multi-chain, multi-protocol A2A payment gateway. Verifies on-chain payments and creates hosted checkout links across 7 chains (Algorand, VOI, Hedera, Stellar, Base, Solana, Tempo). Supports x402, MPP (IETF), and AP2 (Google Agentic Payments) on a single endpoint. 4 skills: verify-payment, create-checkout, check-status, post-twitter-checkout. Live at api1.ilovechicken.co.uk. [Agent Card](https://api1.ilovechicken.co.uk/.well-known/agent.json)
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) 🦀 ☁️ - Solana-native AI agent trust scoring via x402 micropayments. Free on-chain preflight checks + paid signed V5 trust receipts settled in <1s. MCP endpoint at `https://intel.twzrd.xyz/mcp`. ([GitHub](https://github.com/twzrd-sol/wzrd-final))
 
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
