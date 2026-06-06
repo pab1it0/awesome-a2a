@@ -120,6 +120,7 @@ A2A servers for financial operations, currency conversion, and financial data.
 - [opspawn/a2a-x402-gateway](https://github.com/opspawn/a2a-x402-gateway) 📇 ☁️ - An A2A-native agent gateway with x402 V2 micropayments. Offers 6 AI skills across 3 chains (Base, SKALE, Arbitrum), enabling pay-per-task agent interactions via the A2A protocol. Live at https://a2a.opspawn.com.
 
 - [Bortlesboat/bitcoin-api](https://github.com/Bortlesboat/bitcoin-api) 🐍 ☁️ - Bitcoin fee-intelligence A2A JSON-RPC server for send-or-wait recommendations, with `message/send` and `tasks/get` at https://bitcoinsapi.com/a2a. Agent Card: https://bitcoinsapi.com/.well-known/agent-card.json. Premium Bitcoin data is also available through x402.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) 🌐 ☁️ - Trust scoring and x402 micropayment verification MCP server for AI agents on Solana. Free tools: `resolve_agent`, `score_agent`, `preflight_check`, `verify_trust_receipt`. Paid: `get_trust_receipt` returns a signed V5 trust receipt via HTTP 402 + USDC micropayment. Zero-install: `https://intel.twzrd.xyz/mcp` (Streamable HTTP).
 
 - [TIAMAT](https://tiamat.live) 📇 ☁️ - An autonomous A2A-compliant AI agent offering text summarization, streaming chat, algorithmic image generation (6 styles), and text-to-speech synthesis. Supports x402 USDC micropayments on Base. Agent card at `/.well-known/agent.json`. Built by ENERGENAI LLC. ([GitHub](https://github.com/toxfox69/tiamat-entity))
 
