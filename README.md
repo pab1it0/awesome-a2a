@@ -164,6 +164,8 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 A2A servers for software development, coding, version control, and DevOps.
 
+- [Aurelius Agent](https://aureliusagent.dev/) ☁️ - Strategic planning and orchestration agent for BuilderStudio that breaks complex software work into actionable implementation paths, coordinates coding tasks, prepares project context, guides Hermes Agent execution, and supports repeatable build, smoke-test, and release flows. Agent Card: https://aureliusagent.dev/.well-known/agent-card.json. Docker image: `ghcr.io/wundercorp/aurelius-agent:0.3.9`. Built by wundercorp.
+
 - [EmilLindfors/a2a-rs](https://github.com/EmilLindfors/a2a-rs) 🦀 🏠 - A Rust implementation of the A2A protocol that follows idiomatic Rust practices and hexagonal architecture principles. Features both client and server implementations, multiple transport options (HTTP and WebSocket), streaming support, and async/sync interfaces with flexible feature flags.
 - [k-jarzyna/adk-modular-architecture](https://github.com/k-jarzyna/adk-modular-architecture) 🐍 🏠 - A flexible, multi-agent system for automating the presales process using Google's Agent Development Kit.
 - [yeeaiclub/a2a-go](https://github.com/yeeaiclub/a2a-go) 🏎️ 🏠 - A Go implementation of the A2A protocol with middleware support, authentication, and complete protocol methods. Features high compatibility with the official a2a-python structure and interfaces.
