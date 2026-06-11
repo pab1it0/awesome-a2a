@@ -182,6 +182,7 @@ A2A servers for knowledge management, document handling, and information extract
 A2A servers for data processing, analytics, and database integration.
 
 - [Cerebrus Pulse](https://cerebruspulse.xyz) 🐍 ☁️ 🐧 - Institutional-grade crypto derivatives intelligence via A2A + x402 micropayments. Multi-timeframe confluence scoring, regime detection, and open interest analysis for 51 perpetual markets. Pay-per-query with USDC on Base. Agent Card: [api.cerebruspulse.xyz/.well-known/agent-card.json](https://api.cerebruspulse.xyz/.well-known/agent-card.json)
+- [The Stall](https://github.com/thebrierfox/the-stall) by [IntuiTek¹](https://intuitek.ai) 🐍 ☁️ - 209 pay-per-call data capabilities via x402 MCP: market data, on-chain analytics, DeFi intelligence, and geopolitical signals. USDC micropayments on Base. Agent Card: [the-stall.intuitek.ai/.well-known/agent-card.json](https://the-stall.intuitek.ai/.well-known/agent-card.json)
 
 ### 🚆 <a name="travel-and-transportation"></a>Travel & Transportation
 
