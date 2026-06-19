@@ -223,6 +223,7 @@ Auxiliary tools that help with A2A server development, testing, and deployment.
 - [liujuanjuan1984/a2a-client-hub](https://github.com/liujuanjuan1984/a2a-client-hub) 🐍 🏠 - A self-hosted A2A client hub for managing and invoking multiple agents across web/mobile clients with authentication and session-aware routing.
 - [kcolbchain/switchboard](https://github.com/kcolbchain/switchboard) 🐍 - Agent-side x402 transport that composes with the a2a-x402 extension. Binary-wire `PaymentOffer` / `PaymentProof` envelopes via ZAP, HTTP 402 middleware (FastAPI/Flask), gas-budget tracker, reorg-safe nonce manager, and Solidity `AgentEscrow` for agent-to-agent settlement.
 - [annals-ai/ah-cli](https://github.com/annals-ai/ah-cli) 📇 🏠 🍎 🐧 🪟 - Daemon-first local runtime for AI agents. One local daemon runs many Claude/Codex agents with sessions and transcripts kept on your own disk; expose any agent over A2A Protocol v1.0 either to a hosted open network or as a vendor-neutral self-hosted HTTP endpoint. Local multi-agent fan-out and pipelines; WebRTC P2P file transfer between agents. MIT, `npm i -g @annals/ah-cli`.
+- [inference-gateway/cli](https://github.com/inference-gateway/cli) 🏎️ - A CLI tool for the Inference Gateway — manage and route AI inference requests with A2A protocol support. Built in Go, it serves as an agentic command-line assistant that writes code, understands project context, and uses tools to perform real tasks with native A2A protocol support.
 
 ## Contributing
 
