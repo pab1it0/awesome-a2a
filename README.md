@@ -127,6 +127,7 @@ A2A servers for financial operations, currency conversion, and financial data.
 
 - [AlgoVoi](https://algovoi.co.uk) 🐍 ☁️ - Multi-chain, multi-protocol A2A payment gateway. Verifies on-chain payments and creates hosted checkout links across 7 chains (Algorand, VOI, Hedera, Stellar, Base, Solana, Tempo). Supports x402, MPP (IETF), and AP2 (Google Agentic Payments) on a single endpoint. 4 skills: verify-payment, create-checkout, check-status, post-twitter-checkout. Live at api1.ilovechicken.co.uk. [Agent Card](https://api1.ilovechicken.co.uk/.well-known/agent.json)
 - [TWZRD Agent Intel](https://intel.twzrd.xyz) 🦀 ☁️ - Solana-native AI agent trust scoring via x402 micropayments. Free on-chain preflight checks + paid signed V5 trust receipts settled in <1s. MCP endpoint at `https://intel.twzrd.xyz/mcp`. ([GitHub](https://github.com/twzrd-sol/wzrd-final))
+- [The Stall](https://the-stall.intuitek.ai) 📇 ☁️ - 172 pay-per-call financial and market intelligence skills via x402 USDC micropayments on Base. Covers equities (price, fundamentals, earnings, options, insider trades), crypto/DeFi (prices, whale radar, DEX quotes, protocol revenue), macro (FOMC, treasury yields, IMF outlook), on-chain analytics (EVM logs, wallet balance, token security, ENS lookup), and 20+ verticals. Sub-cent per skill —  at $0.018. Zero install: paste MCP URL into any A2A client. Agent Card at . ([GitHub](https://github.com/thebrierfox/the-stall))
 
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
