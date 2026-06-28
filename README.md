@@ -141,6 +141,8 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [unitedideas/ai-dev-jobs](https://aidevboard.com/docs) 🏎️ ☁️ - AI Dev Jobs — structured data on 8,400+ active AI/ML engineering jobs from 580 ATS sources. Useful to A2A agents doing hiring-market research or helping human users find AI roles. MCP server at `https://aidevboard.com/mcp` + REST API.
 
+- [BuyWhere/buywhere-mcp](https://github.com/BuyWhere/buywhere-mcp) 📇 ☁️ - A2A-compliant product catalog API for AI shopping agents — search, compare prices, and find best deals across 163M+ products from 89K+ merchants in Singapore, US, and SEA markets. Live Agent Card at [buywhere.ai/.well-known/agent-card.json](https://buywhere.ai/.well-known/agent-card.json). Also exposes an MCP server at `https://api.buywhere.ai/mcp` for Claude Desktop, Cursor, and VS Code. ([GitHub](https://github.com/BuyWhere/buywhere-mcp))
+
 ### 💬 <a name="communication-services"></a>Communication Services
 
 A2A servers for messaging, email, and other communication tools.
