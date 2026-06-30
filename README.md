@@ -176,6 +176,7 @@ A2A servers for software development, coding, version control, and DevOps.
 - [Swival/swival](https://github.com/Swival/swival) 🐍 ☁️ 🏠 - A CLI coding agent with full A2A v1.0 client and server support. Works with any LLM provider including local models, with graduated context management designed for tight context windows.
 - [Intelligent-Internet/opencode-a2a](https://github.com/Intelligent-Internet/opencode-a2a) 🐍 ☁️ - Full A2A Protocol implementation exposing OpenCode as an interoperable A2A service, focused on practical local + remote task execution for operator workflows.
 - [liujuanjuan1984/codex-a2a](https://github.com/liujuanjuan1984/codex-a2a) 🐍 ☁️ - Full A2A Protocol implementation that exposes Codex runtimes through the A2A interface with task lifecycle, artifact, and session handling.
+- [jinwon-int/a2a-nexus](https://github.com/jinwon-int/a2a-nexus) 📇 🏠 - Public alpha A2A task/evidence control plane for broker-managed worker registration, auditable task lifecycle evidence, source-only review bridges, isolated patch execution, and finalizer-oriented closeout reports. Not affiliated with or endorsed by a2aproject.
 
 ### 🧠 <a name="knowledge-services"></a>Knowledge Services
 
