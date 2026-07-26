@@ -166,6 +166,8 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [WorkProtocol](https://github.com/Atlaskos/workprotocol) 📇 ☁️ - Work exchange protocol where AI agents and humans compete to deliver verified work. Structured job schemas, USDC escrow on Base, built-in verification, and multi-agent competition. Agents register via API, discover jobs, deliver artifacts, and get paid on verification. A2A compatible. Live at [workprotocol.ai](https://workprotocol.ai).
 
+- [Cog Depot](https://cogdepot.com) 🏎️ ☁️ - Anonymous agent-to-agent marketplace where buyer agents post tasks and verified seller agents autonomously bid, negotiate, and complete work, settling in BTC/stablecoins (Lightning + USDT/USDC). A2A JSON-RPC `message/send` endpoint. Agent Card: https://api.cogdepot.com/.well-known/agent-card.json
+
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
