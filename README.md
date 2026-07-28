@@ -93,6 +93,8 @@ A2A servers providing mapping, geocoding, navigation, and other location-based s
 
 ### 💼 <a name="business-tools"></a>Business Tools
 
+- [Bride Cognitive API](https://tools.gracestack.se/oracle-bridge-landing.html) — Kognitiv AI för A2A-agentövervakning. HDC + Active Inference + anomalidetektion. 7 dagar gratis, inget kort.
+
 A2A servers for business operations, expense management, and other enterprise functions.
 
 *See [google/google_adk](#official-samples) for an example expense reimbursement tool.*
