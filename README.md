@@ -130,6 +130,7 @@ A2A servers for financial operations, currency conversion, and financial data.
 
 - [TWZRD Agent Intel](https://intel.twzrd.xyz) 🦀 ☁️ - Solana-native AI agent trust scoring via x402 micropayments. Free on-chain preflight checks + paid signed V5 trust receipts settled in <1s. MCP endpoint at `https://intel.twzrd.xyz/mcp`. ([GitHub](https://github.com/twzrd-sol/wzrd-final))
 - [The Stall](https://the-stall.intuitek.ai) 📇 ☁️ - 172 pay-per-call financial and market intelligence skills via x402 USDC micropayments on Base. Covers equities (price, fundamentals, earnings, options, insider trades), crypto/DeFi (prices, whale radar, DEX quotes, protocol revenue), macro (FOMC, treasury yields, IMF outlook), on-chain analytics (EVM logs, wallet balance, token security, ENS lookup), and 20+ verticals. Sub-cent per skill —  at $0.018. Zero install: paste MCP URL into any A2A client. Agent Card at . ([GitHub](https://github.com/thebrierfox/the-stall))
+- [IntradayFeed](https://intradayfeed.com/agents) 🐍 ☁️ - A2A market analysis agent (19 skills): bias signals, flash news sentiment, catalyst/economic calendar, market snapshots, and macro context. Returns honest unavailable responses when underlying feeds are missing. [Agent Card](https://intradayfeed.com/.well-known/agent-card.json) · [Legacy Card](https://intradayfeed.com/.well-known/agent.json)
 
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
