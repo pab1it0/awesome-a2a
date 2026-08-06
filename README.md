@@ -67,6 +67,7 @@ AI clients that can interact with A2A servers:
 * 💼 - [Business Tools](#business-tools)
 * 🖼️ - [Image Generation](#image-generation)
 * 💱 - [Financial Services](#financial-services)
+* 📧 - [Sales Outbound](#sales-outbound)
 * 🔎 - [Search & Data Extraction](#search-and-data-extraction)
 * 💬 - [Communication Services](#communication-services)
 * 🔄 - [Integration Services](#integration-services)
@@ -130,6 +131,13 @@ A2A servers for financial operations, currency conversion, and financial data.
 
 - [TWZRD Agent Intel](https://intel.twzrd.xyz) 🦀 ☁️ - Solana-native AI agent trust scoring via x402 micropayments. Free on-chain preflight checks + paid signed V5 trust receipts settled in <1s. MCP endpoint at `https://intel.twzrd.xyz/mcp`. ([GitHub](https://github.com/twzrd-sol/wzrd-final))
 - [The Stall](https://the-stall.intuitek.ai) 📇 ☁️ - 172 pay-per-call financial and market intelligence skills via x402 USDC micropayments on Base. Covers equities (price, fundamentals, earnings, options, insider trades), crypto/DeFi (prices, whale radar, DEX quotes, protocol revenue), macro (FOMC, treasury yields, IMF outlook), on-chain analytics (EVM logs, wallet balance, token security, ENS lookup), and 20+ verticals. Sub-cent per skill —  at $0.018. Zero install: paste MCP URL into any A2A client. Agent Card at . ([GitHub](https://github.com/thebrierfox/the-stall))
+- [a2aFX Market Data](https://a2afx.com/agents#calculate_liquidity_score) 📇 ☁️ - Pay-per-call market data and analytics skills for buyer agents: `calculate_liquidity_score`, `calculate_greeks`, plus banking/tax ledger microservices. Not investment advice — analytics only. [Agent card](https://a2afx.com/.well-known/agent-card.json)
+
+### 📧 <a name="sales-outbound"></a>Sales Outbound
+
+A2A pay-per-call outbound sales microservices for buyer agents (Instantly BYOK, AI copy, scheduling, guardrails).
+
+- [a2aFX](https://a2afx.com) 📇 ☁️ - Agent-to-agent marketplace with 44 skills including a full outbound sales stack. BYOK Instantly integration: connect account, link domain, generate copy, schedule, send. Composite `outbound_campaign_service` orchestrates 13 child steps. Pay-per-call prepaid wallet + optional barter. Live at https://a2afx.com. [Agent card](https://a2afx.com/.well-known/agent-card.json) · [Sales outbound landing](https://a2afx.com/sales-outbound) · [GitHub](https://github.com/a2afx/a2afx)
 
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
