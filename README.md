@@ -101,6 +101,10 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [Writbase/writbase](https://github.com/Writbase/writbase) 📇 ☁️ - MCP-native task management for AI agent fleets with multi-agent permissions, full provenance, inter-agent task delegation, and A2A status mapping.
 
+- [SwarmSync Commerce Demo Agent](https://github.com/swarmsync-ai/commerce-demo-agent) 📇 ☁️ - A public A2A-compatible demo agent showing agent-to-agent commerce: paid tasks, escrow, task verification, SwarmScore portable trust badges, and payment release/refund flows.
+
+- [srotzin/hive-mcp-attest](https://github.com/srotzin/hive-mcp-attest) 📇 ☁️ - Pre-action agent verification with Ed25519-signed C18 receipts on every gate decision (allow AND deny), real-rail USDC settlement on Base, 6 A2A v0.3.0 skills, 18 MCP tools. Published to the MCP Official Registry. [Agent Card](https://thehiveryiq.com/.well-known/agent.json)
+
 - [Ambr](https://ambr.run) 📇 ☁️ - Legal contract management for AI agents. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable legal text + machine-parsable JSON, SHA-256 linked). 6 skills: contract creation, template browsing, retrieval, hash verification, status checking, agent handshake. Supports API key and x402 USDC payment. [Agent Card](https://getamber.dev/.well-known/agent.json) ([Platform](https://getamber.dev))
 
 ### 🖼️ <a name="image-generation"></a>Image Generation
@@ -117,9 +121,18 @@ A2A servers for financial operations, currency conversion, and financial data.
 
 - [opspawn/a2a-x402-gateway](https://github.com/opspawn/a2a-x402-gateway) 📇 ☁️ - An A2A-native agent gateway with x402 V2 micropayments. Offers 6 AI skills across 3 chains (Base, SKALE, Arbitrum), enabling pay-per-task agent interactions via the A2A protocol. Live at https://a2a.opspawn.com.
 
+- [Bortlesboat/bitcoin-api](https://github.com/Bortlesboat/bitcoin-api) 🐍 ☁️ - Bitcoin fee-intelligence A2A JSON-RPC server for send-or-wait recommendations, with `message/send` and `tasks/get` at https://bitcoinsapi.com/a2a. Agent Card: https://bitcoinsapi.com/.well-known/agent-card.json. Premium Bitcoin data is also available through x402.
+
 - [TIAMAT](https://tiamat.live) 📇 ☁️ - An autonomous A2A-compliant AI agent offering text summarization, streaming chat, algorithmic image generation (6 styles), and text-to-speech synthesis. Supports x402 USDC micropayments on Base. Agent card at `/.well-known/agent.json`. Built by ENERGENAI LLC. ([GitHub](https://github.com/toxfox69/tiamat-entity))
 
 - [MERX](https://merx.exchange) 📇 ☁️ - TRON blockchain resource exchange. Aggregates 7 energy providers with real-time best-price routing. 6 A2A skills: buy energy, get prices, analyze market, check balance, ensure resources, create standing orders. Also supports MCP (53 tools). Live at merx.exchange. [Agent Card](https://merx.exchange/.well-known/agent.json) ([GitHub](https://github.com/Hovsteder/merx-mcp))
+
+- [AlgoVoi](https://algovoi.co.uk) 🐍 ☁️ - Multi-chain, multi-protocol A2A payment gateway. Verifies on-chain payments and creates hosted checkout links across 7 chains (Algorand, VOI, Hedera, Stellar, Base, Solana, Tempo). Supports x402, MPP (IETF), and AP2 (Google Agentic Payments) on a single endpoint. 4 skills: verify-payment, create-checkout, check-status, post-twitter-checkout. Live at api1.ilovechicken.co.uk. [Agent Card](https://api1.ilovechicken.co.uk/.well-known/agent.json)
+- [AgentRank](https://agentrank.info) 📇 ☁️ - Settlement-grounded counterparty verification for agent payments: before settling an x402 payment, ask whether the payee is real and backed by on-chain USDC settlement (0-1000 score weighted by payer standing, sybil-resistant, continuously stress-tested against collusion rings). Skills: verify_counterparty_reputation, gate_caller, top_agents; Ed25519-signed receipts on every verdict. Live JSON-RPC at https://api.agentrank.info/a2a, MCP at https://api.agentrank.info/mcp. [Agent Card](https://agentrank.info/.well-known/agent-card.json) ([GitHub](https://github.com/andysalvo/agentrank))
+
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) 🦀 ☁️ - Solana-native AI agent trust scoring via x402 micropayments. Free on-chain preflight checks + paid signed V5 trust receipts settled in <1s. MCP endpoint at `https://intel.twzrd.xyz/mcp`. ([GitHub](https://github.com/twzrd-sol/wzrd-final))
+- [The Stall](https://the-stall.intuitek.ai) 📇 ☁️ - 172 pay-per-call financial and market intelligence skills via x402 USDC micropayments on Base. Covers equities (price, fundamentals, earnings, options, insider trades), crypto/DeFi (prices, whale radar, DEX quotes, protocol revenue), macro (FOMC, treasury yields, IMF outlook), on-chain analytics (EVM logs, wallet balance, token security, ENS lookup), and 20+ verticals. Sub-cent per skill —  at $0.018. Zero install: paste MCP URL into any A2A client. Agent Card at . ([GitHub](https://github.com/thebrierfox/the-stall))
+- [IntradayFeed](https://intradayfeed.com/agents) 🐍 ☁️ - A2A market analysis agent (19 skills): bias signals, flash news sentiment, catalyst/economic calendar, market snapshots, and macro context. Returns honest unavailable responses when underlying feeds are missing. [Agent Card](https://intradayfeed.com/.well-known/agent-card.json) · [Legacy Card](https://intradayfeed.com/.well-known/agent.json)
 
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
@@ -129,12 +142,20 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [ju4nv1e1r4/agents-with-adk](https://github.com/ju4nv1e1r4/agents-with-adk) 🐍 ☁️ - An example of agent implementation using Google ADK (Agent Development Kit) with two agents and a tool, working with full iteroperability, along with demonstrations of agent evaluation and deployment to Google Cloud Run.
 
+- [unitedideas/nothumansearch](https://github.com/unitedideas/nothumansearch) 🏎️ ☁️ - Not Human Search — agent-first search engine indexing 8,000+ agent-readable services (including A2A-aspiring agents with llms.txt, OpenAPI, ai-plugin, or MCP). Ranked across 7 signals. Exposes MCP server at `https://nothumansearch.ai/mcp` + REST API. Includes `verify_mcp` live JSON-RPC probe, useful for confirming a discovered counterpart agent is actually reachable.
+
+- [unitedideas/ai-dev-jobs](https://aidevboard.com/docs) 🏎️ ☁️ - AI Dev Jobs — structured data on 8,400+ active AI/ML engineering jobs from 580 ATS sources. Useful to A2A agents doing hiring-market research or helping human users find AI roles. MCP server at `https://aidevboard.com/mcp` + REST API.
+
+- [BuyWhere/buywhere-mcp](https://github.com/BuyWhere/buywhere-mcp) 📇 ☁️ - A2A-compliant product catalog API for AI shopping agents — search, compare prices, and find best deals across 163M+ products from 89K+ merchants in Singapore, US, and SEA markets. Live Agent Card at [buywhere.ai/.well-known/agent-card.json](https://buywhere.ai/.well-known/agent-card.json). Also exposes an MCP server at `https://api.buywhere.ai/mcp` for Claude Desktop, Cursor, and VS Code. ([GitHub](https://github.com/BuyWhere/buywhere-mcp))
+
 ### 💬 <a name="communication-services"></a>Communication Services
 
 A2A servers for messaging, email, and other communication tools.
 
 - [Perkoon](https://perkoon.com) 📇 ☁️ - P2P data exchange between agents. Create transfer sessions via A2A, move files directly between machines over WebRTC with `perkoon send` / `perkoon receive`. No accounts, no size limits, end-to-end encrypted — server never touches the data. Agent Card: [perkoon.com/.well-known/agent-card.json](https://perkoon.com/.well-known/agent-card.json)
 - [OpenStoa](https://www.openstoa.xyz) 📇 ☁️ - ZK-gated community where humans and AI agents coexist. Agents authenticate via Google OIDC zero-knowledge proofs, join topic discussions, post, comment, and chat. Topics can be gated by Coinbase KYC, Country, Google Workspace, or Microsoft 365 proofs. Agent Card at [openstoa.xyz/.well-known/agent-card.json](https://www.openstoa.xyz/.well-known/agent-card.json). 🏅 1st Place at The Synthesis Hackathon ("Agents That Keep Secrets" track, April 2026).
+- [Voidly Agent Relay](https://voidly.ai/agents) 📇 ☁️ - Production A2A v0.3.0-compliant relay with live Agent Card at [api.voidly.ai/.well-known/agent-card.json](https://api.voidly.ai/.well-known/agent-card.json). End-to-end encrypted via Double Ratchet + X3DH + ML-KEM-768 post-quantum hybrid. SDK on npm (`@voidly/agent-sdk`). Pairs with [Voidly Pay](https://github.com/voidly-ai/voidly-pay) for agent-to-agent payments.
+- [Numbers Online](https://numbers.online) 📇 ☁️ - Read-only phone intelligence for AI voice agents: validity, line type, range carrier, country, caller name (CNAM), STIR/SHAKEN verstat, a labeled spam signal, and a first-party do-not-contact (DNC) signal — every field a supplementary, low-confidence signal, with Ed25519-signed receipts. 4 A2A v0.3.0 skills (`phone_lookup`, `line_type`, `caller_risk`, `dnc_check`) over JSON-RPC `message/send`. Agent Card: [numbers.online/.well-known/agent-card.json](https://numbers.online/.well-known/agent-card.json) ([GitHub](https://github.com/numbers-online/numbers-online-mcp))
 
 ### 🔄 <a name="integration-services"></a>Integration Services
 
@@ -144,9 +165,17 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [Agent Café](https://github.com/brcrusoe72/agent-cafe) 🐍 ☁️ - Agent marketplace with behavioral trust scoring, job bidding, Stripe payments, and prompt injection defense. Agents register, browse jobs, bid, deliver, and build computed reputation. Discovery via `/.well-known/agent-card.json`. Live at [thecafe.dev](https://thecafe.dev).
 
+- [tjcrowley/a2a-hub](https://github.com/tjcrowley/a2a-hub) 📇 ☁️ - Agent-to-agent marketplace with escrow, negotiation, and reputation. Off-chain and on-chain (EVM) settlement. Live at [swarmtrade.store](https://swarmtrade.store).
+
+- [WorkProtocol](https://github.com/Atlaskos/workprotocol) 📇 ☁️ - Work exchange protocol where AI agents and humans compete to deliver verified work. Structured job schemas, USDC escrow on Base, built-in verification, and multi-agent competition. Agents register via API, discover jobs, deliver artifacts, and get paid on verification. A2A compatible. Live at [workprotocol.ai](https://workprotocol.ai).
+
+- [Cog Depot](https://cogdepot.com) 🏎️ ☁️ - Anonymous agent-to-agent marketplace where buyer agents post tasks and verified seller agents autonomously bid, negotiate, and complete work, settling in BTC/stablecoins (Lightning + USDT/USDC). A2A JSON-RPC `message/send` endpoint. Agent Card: https://api.cogdepot.com/.well-known/agent-card.json
+
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
+
+- [Aurelius Agent](https://aureliusagent.dev/) ☁️ - Strategic planning and orchestration agent for BuilderStudio that breaks complex software work into actionable implementation paths, coordinates coding tasks, prepares project context, guides Hermes Agent execution, and supports repeatable build, smoke-test, and release flows. Agent Card: https://aureliusagent.dev/.well-known/agent-card.json. Docker image: `ghcr.io/wundercorp/aurelius-agent:0.3.9`. Built by wundercorp.
 
 - [EmilLindfors/a2a-rs](https://github.com/EmilLindfors/a2a-rs) 🦀 🏠 - A Rust implementation of the A2A protocol that follows idiomatic Rust practices and hexagonal architecture principles. Features both client and server implementations, multiple transport options (HTTP and WebSocket), streaming support, and async/sync interfaces with flexible feature flags.
 - [k-jarzyna/adk-modular-architecture](https://github.com/k-jarzyna/adk-modular-architecture) 🐍 🏠 - A flexible, multi-agent system for automating the presales process using Google's Agent Development Kit.
@@ -154,6 +183,7 @@ A2A servers for software development, coding, version control, and DevOps.
 - [Swival/swival](https://github.com/Swival/swival) 🐍 ☁️ 🏠 - A CLI coding agent with full A2A v1.0 client and server support. Works with any LLM provider including local models, with graduated context management designed for tight context windows.
 - [Intelligent-Internet/opencode-a2a](https://github.com/Intelligent-Internet/opencode-a2a) 🐍 ☁️ - Full A2A Protocol implementation exposing OpenCode as an interoperable A2A service, focused on practical local + remote task execution for operator workflows.
 - [liujuanjuan1984/codex-a2a](https://github.com/liujuanjuan1984/codex-a2a) 🐍 ☁️ - Full A2A Protocol implementation that exposes Codex runtimes through the A2A interface with task lifecycle, artifact, and session handling.
+- [jinwon-int/a2a-nexus](https://github.com/jinwon-int/a2a-nexus) 📇 🏠 - Public alpha A2A task/evidence control plane for broker-managed worker registration, auditable task lifecycle evidence, source-only review bridges, isolated patch execution, and finalizer-oriented closeout reports. Not affiliated with or endorsed by a2aproject.
 
 ### 🧠 <a name="knowledge-services"></a>Knowledge Services
 
@@ -166,6 +196,7 @@ A2A servers for knowledge management, document handling, and information extract
 A2A servers for data processing, analytics, and database integration.
 
 - [Cerebrus Pulse](https://cerebruspulse.xyz) 🐍 ☁️ 🐧 - Institutional-grade crypto derivatives intelligence via A2A + x402 micropayments. Multi-timeframe confluence scoring, regime detection, and open interest analysis for 51 perpetual markets. Pay-per-query with USDC on Base. Agent Card: [api.cerebruspulse.xyz/.well-known/agent-card.json](https://api.cerebruspulse.xyz/.well-known/agent-card.json)
+- [LogicNodes PII-Shield](https://logicnodes.io) 🐍 ☁️ - A2A-discoverable PII-screening agent that returns an EIP-191-signed, on-chain-verifiable attestation per call (input_sha256 to output_sha256). Free tier 5/day, then $0.05 USDC per call via x402 on Base. Each call mints a public proof page that re-verifies the signature in the browser. Agent Card: [logicnodes.io/.well-known/agent.json](https://logicnodes.io/.well-known/agent.json)
 
 ### 🚆 <a name="travel-and-transportation"></a>Travel & Transportation
 
@@ -186,10 +217,13 @@ Tools and frameworks for building A2A servers.
 - [Retool Agents](https://docs.retool.com/agents/concepts/a2a) ☁️ - Framework for building operational agents on top of business data with A2A support. 
 - [OpenAgents](https://github.com/openagents-org/openagents) 🐍 - Open-source multi-agent platform with native A2A protocol support, plus MCP, WebSocket, gRPC, and HTTP. Build AI agent networks where multiple agents connect, communicate, and collaborate.
 - [Inai](https://github.com/ch4r10t33r/inai) 📇 🐍 🦀 🏠 ☁️ - Framework for scaffolding and running P2P-discoverable, DID-native AI agents across TypeScript, Python, Rust, and Zig. Features libp2p-based peer discovery, ANR (Agent Name Records), on-chain discovery via ERC-8004, and multi-framework support for LangGraph, CrewAI, Google ADK, Agno, LlamaIndex, and smolagents.
+- [systemprompt-template](https://github.com/systempromptio/systemprompt-template) 🦀 🏠 🐧 - Production-grade Rust runtime for hosting and governing MCP servers with A2A orchestration. Built-in 6-tier RBAC, secret detection (35+ patterns), rate limiting, audit logging, OAuth 2.0 + WebAuthn. Single binary (~50 MB), PostgreSQL only — no Kubernetes, no Redis. [BSL-1.1]
 
 ## Utilities
 
 Auxiliary tools that help with A2A server development, testing, and deployment.
+
+- [getbindu/Bindu](https://github.com/getbindu/Bindu) 🐍 📇 ☁️ - Production runtime for A2A-compatible agents. Wrap existing agents built with LangChain, CrewAI, Agno, OpenAI SDK, or plain code using `bindufy()` to add DID identity, OAuth2 authentication, X402 payments, retries, observability, push notifications, storage, scheduling, and gRPC-based multi-language support.
 
 - [UCP JavaScript SDK](https://github.com/OmnixHQ/ucp-js-sdk) 📇 - Runtime-validated Zod schemas and TypeScript types for the Universal Commerce Protocol. Auto-generated from the UCP JSON Schema spec with 100% coverage — checkout, orders, payments, payment handlers, fulfillment, discounts, buyer consent, AP2 mandates, discovery profiles (platform & business), identity linking, catalog, cart, and all inline enums. Supports MCP, A2A, REST, and Embedded transport bindings. Dual ESM/CJS build. Available on [npm](https://www.npmjs.com/package/@omnixhq/ucp-js-sdk).
 
@@ -199,7 +233,11 @@ Auxiliary tools that help with A2A server development, testing, and deployment.
 
 - [Gatana](https://www.gatana.ai/) ☁️ - An MCP gateway for Agent-to-Agent systems. Features access token trust, claim mapping, and flexible credential management to allow any token to access MCP tools.
 - [Autonomous Commune](https://commune.autonomous-commune.ai/) Python Cloud - Live A2A marketplace for 12 autonomous AI agents spanning DeFi and TradFi. 52 pay-per-use services via USDC micropayments on Base L2 (x402 protocol). Agents include: Shrike (liquidation/MEV), Argus (intelligence), Ouroboros (derivatives), Dullahan (security), Fafnir (treasury), Kairos (options). [Agent Card](https://commune.autonomous-commune.ai/.well-known/agent.json)
+- [EventTrader NEXUS AI](https://cymetica.com) 🐍 ☁️ - A2A-native prediction market trading platform with 50+ MCP tools, autonomous trade execution, real-time market intelligence, and multi-platform bridge federation (IronClaw, NanoClaw, ClawGig). Inter-agent DM infrastructure for cross-platform agent messaging. [Agent Card](https://cymetica.com/.well-known/agent-card.json)
 - [liujuanjuan1984/a2a-client-hub](https://github.com/liujuanjuan1984/a2a-client-hub) 🐍 🏠 - A self-hosted A2A client hub for managing and invoking multiple agents across web/mobile clients with authentication and session-aware routing.
+- [kcolbchain/switchboard](https://github.com/kcolbchain/switchboard) 🐍 - Agent-side x402 transport that composes with the a2a-x402 extension. Binary-wire `PaymentOffer` / `PaymentProof` envelopes via ZAP, HTTP 402 middleware (FastAPI/Flask), gas-budget tracker, reorg-safe nonce manager, and Solidity `AgentEscrow` for agent-to-agent settlement.
+- [annals-ai/ah-cli](https://github.com/annals-ai/ah-cli) 📇 🏠 🍎 🐧 🪟 - Daemon-first local runtime for AI agents. One local daemon runs many Claude/Codex agents with sessions and transcripts kept on your own disk; expose any agent over A2A Protocol v1.0 either to a hosted open network or as a vendor-neutral self-hosted HTTP endpoint. Local multi-agent fan-out and pipelines; WebRTC P2P file transfer between agents. MIT, `npm i -g @annals/ah-cli`.
+- [inference-gateway/cli](https://github.com/inference-gateway/cli) 🏎️ - A CLI tool for the Inference Gateway — manage and route AI inference requests with A2A protocol support. Built in Go, it serves as an agentic command-line assistant that writes code, understands project context, and uses tools to perform real tasks with native A2A protocol support.
 
 ## Contributing
 
