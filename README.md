@@ -105,6 +105,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [srotzin/hive-mcp-attest](https://github.com/srotzin/hive-mcp-attest) 📇 ☁️ - Pre-action agent verification with Ed25519-signed C18 receipts on every gate decision (allow AND deny), real-rail USDC settlement on Base, 6 A2A v0.3.0 skills, 18 MCP tools. Published to the MCP Official Registry. [Agent Card](https://thehiveryiq.com/.well-known/agent.json)
 
+- [Ambr](https://ambr.run) 📇 ☁️ - Legal contract management for AI agents. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable legal text + machine-parsable JSON, SHA-256 linked). 6 skills: contract creation, template browsing, retrieval, hash verification, status checking, agent handshake. Supports API key and x402 USDC payment. [Agent Card](https://getamber.dev/.well-known/agent.json) ([Platform](https://getamber.dev))
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
