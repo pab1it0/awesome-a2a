@@ -197,6 +197,7 @@ A2A servers for data processing, analytics, and database integration.
 
 - [Cerebrus Pulse](https://cerebruspulse.xyz) 🐍 ☁️ 🐧 - Institutional-grade crypto derivatives intelligence via A2A + x402 micropayments. Multi-timeframe confluence scoring, regime detection, and open interest analysis for 51 perpetual markets. Pay-per-query with USDC on Base. Agent Card: [api.cerebruspulse.xyz/.well-known/agent-card.json](https://api.cerebruspulse.xyz/.well-known/agent-card.json)
 - [LogicNodes PII-Shield](https://logicnodes.io) 🐍 ☁️ - A2A-discoverable PII-screening agent that returns an EIP-191-signed, on-chain-verifiable attestation per call (input_sha256 to output_sha256). Free tier 5/day, then $0.05 USDC per call via x402 on Base. Each call mints a public proof page that re-verifies the signature in the browser. Agent Card: [logicnodes.io/.well-known/agent.json](https://logicnodes.io/.well-known/agent.json)
+- [AgentRisk](https://agentrisk.dev) 🐍 ☁️ - Pre-trade risk scoring for Base tokens: honeypot detection, deployer wallet freshness, brand impersonation, and LP lock status cross-checked on-chain. Returns a risk score, human-readable verdict, and an explicit confidence flag when key data is missing. $0.15 USDC per call via x402 on Base. Agent Card: [agentrisk.dev/.well-known/agent.json](https://agentrisk.dev/.well-known/agent.json)
 
 ### 🚆 <a name="travel-and-transportation"></a>Travel & Transportation
 
