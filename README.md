@@ -208,6 +208,7 @@ A2A servers for travel planning, booking, and transportation services.
 *No entries yet. [Contribute](CONTRIBUTING.md)!*
 
 ## Frameworks
+- [clayborn](https://github.com/nvwalj/clayborn) 📇 🏠 - Zero-dependency Node runtime that puts a *personal* agent — one on the laptop in front of you, behind NAT, on a machine that sleeps — on the A2A network in three commands. Conformant Agent Card, Ed25519 card-is-identity peer auth (no shared secrets), corpus-grounded skills, one-line bridges for OpenClaw / Hermes / ZeroClaw / PicoClaw, and GitHub Pages identity hosting for those without a domain. MIT.
 ## [Hashgraph Online (HOL)](https://hol.org)
 Universal agentic registry on Hedera Hashgraph with HCS-14 UAIDs. Bridges to A2A, ERC-8004, Virtuals, and x402 protocols.
 
