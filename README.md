@@ -138,8 +138,6 @@ A2A servers for financial operations, currency conversion, and financial data.
 
 A2A servers for search, data retrieval, and information extraction.
 
-- [future-zhang/agent-earn-radar](https://github.com/future-zhang/agent-earn-radar) 📇 ☁️ - An A2A v0.3 opportunity-intelligence server with a free live sample and product quote, plus paid bounty-radar and market-snapshot resources via x402 USDC on Base. [Agent Card](https://agent-earn-radar.vercel.app/.well-known/agent-card.json)
-
 - [AnyBrowse](https://anybrowse.dev) ☁️ - Autonomous web browsing agent that converts URLs to LLM-ready Markdown via real Chrome browsers, with x402 micropayments on Base.
 
 - [ju4nv1e1r4/agents-with-adk](https://github.com/ju4nv1e1r4/agents-with-adk) 🐍 ☁️ - An example of agent implementation using Google ADK (Agent Development Kit) with two agents and a tool, working with full iteroperability, along with demonstrations of agent evaluation and deployment to Google Cloud Run.
