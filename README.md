@@ -107,6 +107,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [Ambr](https://ambr.run) 📇 ☁️ - Legal contract management for AI agents. Creates, signs, and verifies dual-format Ricardian Contracts (human-readable legal text + machine-parsable JSON, SHA-256 linked). 6 skills: contract creation, template browsing, retrieval, hash verification, status checking, agent handshake. Supports API key and x402 USDC payment. [Agent Card](https://getamber.dev/.well-known/agent.json) ([Platform](https://getamber.dev))
 
+- [Emboss](https://getemboss.ai) 🐍 ☁️ - Fill PDF forms with AI: turn a flat PDF into a fillable form, fill it from data or documents, or fill it for every row of a spreadsheet. 7 A2A skills with SSE streaming and a JWS-signed agent card, live at https://api.getemboss.ai/a2a. Also exposes an MCP server at `https://api.getemboss.ai/mcp`. [Agent Card](https://api.getemboss.ai/.well-known/agent-card.json)
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
