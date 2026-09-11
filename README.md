@@ -109,6 +109,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [Emboss](https://getemboss.ai) 🐍 ☁️ - Fill PDF forms with AI: turn a flat PDF into a fillable form, fill it from data or documents, or fill it for every row of a spreadsheet. 7 A2A skills with SSE streaming and a JWS-signed agent card, live at https://api.getemboss.ai/a2a. Also exposes an MCP server at `https://api.getemboss.ai/mcp`. [Agent Card](https://api.getemboss.ai/.well-known/agent-card.json)
 
+- [HORIZON SHIELD KIRA](https://github.com/ogasurfproject-jpg/horizon-shield) 📇 ☁️ - Buyer-side auditing of Japanese construction and renovation estimates against the open JCCDB cost database. A2A skills for estimate-integrity audit, property-reform intake, and third-party verification of signed claims; also an MCP server (14 tools). Declares the conduct extension (who pays the agent, a third-party conduct record, a witness intake) and issues Bitcoin-anchored, independently recomputable verdicts. [Agent Card](https://mcp.horizonshield.dev/.well-known/agent-card.json)
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
