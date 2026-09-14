@@ -194,7 +194,7 @@ A2A servers for software development, coding, version control, and DevOps.
 
 A2A servers for knowledge management, document handling, and information extraction.
 
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
+-- [Claix](https://claix.dev/) 📇 ☁️ - Document intelligence API for AI agents, exposed as a native A2A agent. Typed schema extraction from PDF, Excel/CSV, Word/text, and images; persistent document memory (`document_id`) queryable in later tasks without re-uploading; and cross-document knowledge spaces (`space_id`) that reason across multiple stored documents as a single delegated task. 19 skills over JSON-RPC `message/send`, with `input-required` handling for missing parameters and push notifications for long-running extractions (no SSE streaming). Also exposes REST and MCP (`https://claix.dev/mcp`). Agent Card: [https://claix.dev/.well-known/agent.json](https://claix.dev/.well-known/agent.json)
 
 ### 📊 <a name="data-services"></a>Data Services
 
