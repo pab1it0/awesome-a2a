@@ -189,6 +189,7 @@ A2A servers for software development, coding, version control, and DevOps.
 - [Intelligent-Internet/opencode-a2a](https://github.com/Intelligent-Internet/opencode-a2a) 🐍 ☁️ - Full A2A Protocol implementation exposing OpenCode as an interoperable A2A service, focused on practical local + remote task execution for operator workflows.
 - [liujuanjuan1984/codex-a2a](https://github.com/liujuanjuan1984/codex-a2a) 🐍 ☁️ - Full A2A Protocol implementation that exposes Codex runtimes through the A2A interface with task lifecycle, artifact, and session handling.
 - [jinwon-int/a2a-nexus](https://github.com/jinwon-int/a2a-nexus) 📇 🏠 - Public alpha A2A task/evidence control plane for broker-managed worker registration, auditable task lifecycle evidence, source-only review bridges, isolated patch execution, and finalizer-oriented closeout reports. Not affiliated with or endorsed by a2aproject.
+- [HostDeFi](https://hostdefi.com/) - DEX front-end with a live A2A agent card (/.well-known/agent.json): agents can scan tokens (A+–F safety grades), price swaps and pay per call in USDC via x402.
 
 ### 🧠 <a name="knowledge-services"></a>Knowledge Services
 
