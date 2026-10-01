@@ -196,7 +196,7 @@ A2A servers for software development, coding, version control, and DevOps.
 
 A2A servers for knowledge management, document handling, and information extraction.
 
-*No entries yet. [Contribute](CONTRIBUTING.md)!*
+- [VOLO](https://flyvolo.ai) 📇 ☁️ - How AI, robotics, autonomous driving and process automation are changing specific occupations and degrees, task by task: every judgement is marked evidenced (by verified public records) or inferred, with what it does not establish, and it never gives a probability of job loss, a year or a score. Six languages. Skills: `ask` (natural-language answers from VOLO's own assessments), `occupation-assessment` and `knowledge-tools` (deterministic JSON). Public, no key; A2A 1.0 and 0.3 JSON-RPC at https://mcp.flyvolo.ai/a2a, and an MCP server at https://mcp.flyvolo.ai/mcp. [Agent Card](https://flyvolo.ai/.well-known/agent-card.json)
 
 ### 📊 <a name="data-services"></a>Data Services
 
