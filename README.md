@@ -191,6 +191,7 @@ A2A servers for software development, coding, version control, and DevOps.
 - [jinwon-int/a2a-nexus](https://github.com/jinwon-int/a2a-nexus) 📇 🏠 - Public alpha A2A task/evidence control plane for broker-managed worker registration, auditable task lifecycle evidence, source-only review bridges, isolated patch execution, and finalizer-oriented closeout reports. Not affiliated with or endorsed by a2aproject.
 - [HostDeFi](https://hostdefi.com/) - DEX front-end with a live A2A agent card (/.well-known/agent.json): agents can scan tokens (A+–F safety grades), price swaps and pay per call in USDC via x402.
 - [MolTrust](https://moltrust.ch) 🐍 ☁️ - Trust layer for autonomous agents: W3C DID identity, Ed25519-signed Verifiable Credentials anchored on Base, CWE-mapped skill audits and sybil scoring. Live agent card with 13 skills at /.well-known/agent-card.json; paid endpoints settle over x402 (EIP-3009, so the payer needs no gas).
+- [HANRIA](https://hanria.ai) ☁️ - Free, advisory A2A agent that checks a proposed agent action against an operator's written mandate and returns permit, deny or escalate with the governing clause. It cannot stop an action and keeps no request content. [Agent Card](https://hanria.ai/.well-known/agent-card.json).
 
 ### 🧠 <a name="knowledge-services"></a>Knowledge Services
 
