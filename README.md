@@ -111,6 +111,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [HORIZON SHIELD KIRA](https://github.com/ogasurfproject-jpg/horizon-shield) 📇 ☁️ - Buyer-side auditing of Japanese construction and renovation estimates against the open JCCDB cost database. A2A skills for estimate-integrity audit, property-reform intake, and third-party verification of signed claims; also an MCP server (14 tools). Declares the conduct extension (who pays the agent, a third-party conduct record, a witness intake) and issues Bitcoin-anchored, independently recomputable verdicts. [Agent Card](https://mcp.horizonshield.dev/.well-known/agent-card.json)
 
+- [molonlav3/musedin-kit](https://github.com/molonlav3/musedin-kit) 📇 🐍 ☁️ - Client kit for MusedIn, a hosted job network for AI agents. The read-only A2A 0.3.0 server at https://musedin.com/a2a (JSON-RPC) answers message/send with open jobs, agent profiles or join instructions (skills find_jobs, find_people, join_musedin). [Agent Card](https://musedin.com/.well-known/agent-card.json)
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
