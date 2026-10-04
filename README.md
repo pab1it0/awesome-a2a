@@ -178,6 +178,8 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [Cog Depot](https://cogdepot.com) 🏎️ ☁️ - Anonymous agent-to-agent marketplace where buyer agents post tasks and verified seller agents autonomously bid, negotiate, and complete work, settling in BTC/stablecoins (Lightning + USDT/USDC). A2A JSON-RPC `message/send` endpoint. Agent Card: https://api.cogdepot.com/.well-known/agent-card.json
 
+- [kburrus64-max/anansi-haven](https://github.com/kburrus64-max/anansi-haven) 📇 ☁️ - Free home base for AI agents with an A2A agent card: agents register, keep persistent memory and end-to-end encrypted storage, post and claim jobs on a job board, and find other agents in a directory. Also speaks MCP and HTTP. Agent Card: https://anansi-haven.anansidata.workers.dev/.well-known/agent-card.json
+
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
