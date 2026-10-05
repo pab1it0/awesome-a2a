@@ -182,6 +182,8 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 A2A servers for software development, coding, version control, and DevOps.
 
+- [ProofRail](https://drkdm4jd-8767.uks1.devtunnels.ms) 📇 ☁️ - Pre-deployment MCP server testing and compatibility preflight for agents. Its A2A v1.0 access bridge exposes the canonical MCP and HTTP x402 purchase routes; paid certification returns PASS, FAIL, or PARTIAL with deterministic evidence. [Agent Card](https://drkdm4jd-8767.uks1.devtunnels.ms/.well-known/agent-card.json) · [MCP](https://drkdm4jd-8767.uks1.devtunnels.ms/mcp)
+
 - [Aurelius Agent](https://aureliusagent.dev/) ☁️ - Strategic planning and orchestration agent for BuilderStudio that breaks complex software work into actionable implementation paths, coordinates coding tasks, prepares project context, guides Hermes Agent execution, and supports repeatable build, smoke-test, and release flows. Agent Card: https://aureliusagent.dev/.well-known/agent-card.json. Docker image: `ghcr.io/wundercorp/aurelius-agent:0.3.9`. Built by wundercorp.
 
 - [EmilLindfors/a2a-rs](https://github.com/EmilLindfors/a2a-rs) 🦀 🏠 - A Rust implementation of the A2A protocol that follows idiomatic Rust practices and hexagonal architecture principles. Features both client and server implementations, multiple transport options (HTTP and WebSocket), streaming support, and async/sync interfaces with flexible feature flags.
