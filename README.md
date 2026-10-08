@@ -156,6 +156,8 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [Agentropolis](https://agentropolis.io) 📇 ☁️ - Search engine for agent-usable tools: 38,000+ MCP servers, x402/MPP paid APIs, A2A agents and kits. A2A JSON-RPC `message/send` at `https://agentropolis.io/a2a` with skills `find_kits`, `get_kit` and `call_kit` (non-custodial x402 pass-through); trust scores come only from verified payments. Also exposes an MCP server at `https://agentropolis.io/api/mcp`. [Agent Card](https://agentropolis.io/.well-known/agent-card.json)
 
+- [iDevice](https://idevice.com) ☁️ - Independent buyer's guide for phones and wearables. Read-only A2A agent at `https://idevice.com/api/a2a` (JSON-RPC) answers product questions with sourced prices, compatibility, buy-now-or-wait verdicts and pre-release report credibility. A message returns a task and a second call returns the reply, so replies are asynchronous. Also exposes a read-only MCP server at `https://idevice.com/api/mcp` with no auth. [Agent Card](https://idevice.com/.well-known/agent-card.json), [Docs](https://idevice.com/mcp/docs)
+
 ### 💬 <a name="communication-services"></a>Communication Services
 
 A2A servers for messaging, email, and other communication tools.
