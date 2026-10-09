@@ -111,6 +111,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [HORIZON SHIELD KIRA](https://github.com/ogasurfproject-jpg/horizon-shield) 📇 ☁️ - Buyer-side auditing of Japanese construction and renovation estimates against the open JCCDB cost database. A2A skills for estimate-integrity audit, property-reform intake, and third-party verification of signed claims; also an MCP server (14 tools). Declares the conduct extension (who pays the agent, a third-party conduct record, a witness intake) and issues Bitcoin-anchored, independently recomputable verdicts. [Agent Card](https://mcp.horizonshield.dev/.well-known/agent-card.json)
 
+- [molonlav3/musedin-kit](https://github.com/molonlav3/musedin-kit) 📇 🐍 ☁️ - Client kit for MusedIn, a hosted job network for AI agents. The read-only A2A 0.3.0 server at https://musedin.com/a2a (JSON-RPC) answers message/send with open jobs, agent profiles or join instructions (skills find_jobs, find_people, join_musedin). [Agent Card](https://musedin.com/.well-known/agent-card.json)
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
@@ -137,6 +139,7 @@ A2A servers for financial operations, currency conversion, and financial data.
 - [TWZRD Agent Intel](https://intel.twzrd.xyz) 🦀 ☁️ - Solana-native AI agent trust scoring via x402 micropayments. Free on-chain preflight checks + paid signed V5 trust receipts settled in <1s. MCP endpoint at `https://intel.twzrd.xyz/mcp`. ([GitHub](https://github.com/twzrd-sol/wzrd-final))
 - [The Stall](https://the-stall.intuitek.ai) 📇 ☁️ - 172 pay-per-call financial and market intelligence skills via x402 USDC micropayments on Base. Covers equities (price, fundamentals, earnings, options, insider trades), crypto/DeFi (prices, whale radar, DEX quotes, protocol revenue), macro (FOMC, treasury yields, IMF outlook), on-chain analytics (EVM logs, wallet balance, token security, ENS lookup), and 20+ verticals. Sub-cent per skill —  at $0.018. Zero install: paste MCP URL into any A2A client. Agent Card at . ([GitHub](https://github.com/thebrierfox/the-stall))
 - [IntradayFeed](https://intradayfeed.com/agents) 🐍 ☁️ - A2A market analysis agent (19 skills): bias signals, flash news sentiment, catalyst/economic calendar, market snapshots, and macro context. Returns honest unavailable responses when underlying feeds are missing. [Agent Card](https://intradayfeed.com/.well-known/agent-card.json) · [Legacy Card](https://intradayfeed.com/.well-known/agent.json)
+- [APEX Faucet](https://apexfaucet.xyz) 📇 ☁️ - A2A agent (Flux) for Arc and X1: token exit checks (can you sell it again?) on eight chains, Arc launch feeds and yield vaults, paid per call over x402 in USDC on Arc, Base or Solana. Agent card at `https://apexfaucet.xyz/.well-known/agent-card.json`; also runs a free USDC faucet on Arc mainnet.
 
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
@@ -179,6 +182,9 @@ A2A servers that bridge to various APIs, platforms, and services.
 - [Cog Depot](https://cogdepot.com) 🏎️ ☁️ - Anonymous agent-to-agent marketplace where buyer agents post tasks and verified seller agents autonomously bid, negotiate, and complete work, settling in BTC/stablecoins (Lightning + USDT/USDC). A2A JSON-RPC `message/send` endpoint. Agent Card: https://api.cogdepot.com/.well-known/agent-card.json
 
 - [devlab-group/agent-commerce](https://github.com/devlab-group/agent-commerce) 📇 ☁️ - Self-hosted gateway that puts an existing HTTP API on A2A without changes to the backend: each endpoint exposed over A2A becomes an Agent Card skill called with `SendMessage` (A2A v1.0, JSON-RPC, experimental). The same endpoints can be served over MCP and plain HTTP, and paid ones settle over x402 or MPP directly to the merchant wallet.
+
+- [inamprotocol/inam-protocol](https://github.com/inamprotocol/inam-protocol) 📇 ☁️ - Evidence-based reputation registry for AI agents. Read-only A2A v1.0 agent (JSON-RPC `SendMessage`) that answers an agent's reputation by did:key, fetches two-party signed execution receipts, and finds agents by capability, so an agent can check a counterparty before hiring or paying it. Free, no auth, Apache-2.0. Agent Card: https://api.inamprotocol.org/.well-known/agent-card.json
+
 
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
