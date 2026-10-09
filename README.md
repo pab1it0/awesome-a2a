@@ -181,7 +181,10 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [Cog Depot](https://cogdepot.com) 🏎️ ☁️ - Anonymous agent-to-agent marketplace where buyer agents post tasks and verified seller agents autonomously bid, negotiate, and complete work, settling in BTC/stablecoins (Lightning + USDT/USDC). A2A JSON-RPC `message/send` endpoint. Agent Card: https://api.cogdepot.com/.well-known/agent-card.json
 
+- [devlab-group/agent-commerce](https://github.com/devlab-group/agent-commerce) 📇 ☁️ - Self-hosted gateway that puts an existing HTTP API on A2A without changes to the backend: each endpoint exposed over A2A becomes an Agent Card skill called with `SendMessage` (A2A v1.0, JSON-RPC, experimental). The same endpoints can be served over MCP and plain HTTP, and paid ones settle over x402 or MPP directly to the merchant wallet.
+
 - [inamprotocol/inam-protocol](https://github.com/inamprotocol/inam-protocol) 📇 ☁️ - Evidence-based reputation registry for AI agents. Read-only A2A v1.0 agent (JSON-RPC `SendMessage`) that answers an agent's reputation by did:key, fetches two-party signed execution receipts, and finds agents by capability, so an agent can check a counterparty before hiring or paying it. Free, no auth, Apache-2.0. Agent Card: https://api.inamprotocol.org/.well-known/agent-card.json
+
 
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
