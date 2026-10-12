@@ -185,8 +185,6 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [bshelby88/dispatch-x402](https://github.com/bshelby88/dispatch-x402) 📇 ☁️ - Paid intent router: POST a natural-language agent intent to /dispatch ($0.50 USDC on Base via x402) and get the chosen paid service, a confidence score, extracted params and a ready-to-use request as JSON. A2A agent card at `/.well-known/agent-card.json`.
 
-- [bshelby88/rae-fleet-router](https://github.com/bshelby88/rae-fleet-router) 📇 ☁️ - Agent-to-agent bundle composer: POST {topic} to /api/fleet-bundle ($0.10 USDC on Base via x402) and get combined results from several RAE x402 services in one paid call. A2A agent card at `/.well-known/agent-card.json`.
-
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
