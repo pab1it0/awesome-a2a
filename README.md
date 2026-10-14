@@ -184,6 +184,8 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [inamprotocol/inam-protocol](https://github.com/inamprotocol/inam-protocol) 📇 ☁️ - Evidence-based reputation registry for AI agents. Read-only A2A v1.0 agent (JSON-RPC `SendMessage`) that answers an agent's reputation by did:key, fetches two-party signed execution receipts, and finds agents by capability, so an agent can check a counterparty before hiring or paying it. Free, no auth, Apache-2.0. Agent Card: https://api.inamprotocol.org/.well-known/agent-card.json
 
+- [bshelby88/dispatch-x402](https://github.com/bshelby88/dispatch-x402) 📇 ☁️ - Paid intent router: POST a natural-language agent intent to /dispatch ($0.50 USDC on Base via x402) and get the chosen paid service, a confidence score, extracted params and a ready-to-use request as JSON. A2A agent card at `/.well-known/agent-card.json`.
+
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
