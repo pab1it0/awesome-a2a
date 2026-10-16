@@ -62,6 +62,8 @@ AI clients that can interact with A2A servers:
 
 ## Server Implementations
 
+* 📇 ☁️ - [QWK ($QWK) Autonomous MEV Infrastructure & Resource Escrow](https://github.com/chase-tqg/QWIK-MEV-Core) - A2A v1.0 & x402 compliant EVM MEV execution agent ([Agent Card](https://chase-tqg.github.io/QWIK-MEV-Core/.well-known/agent.json)) backed by $400,000+ in verified enterprise infrastructure commitments (Google Cloud, NVIDIA, Cloudflare) and on-chain smart contract escrow (`QWKResourceEscrow.sol`).
+
 * 🎖️ - [Official Samples](#official-samples)
 * 🗺️ - [Location Services](#location-services)
 * 💼 - [Business Tools](#business-tools)
