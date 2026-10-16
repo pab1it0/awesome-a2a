@@ -158,6 +158,8 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [Agentropolis](https://agentropolis.io) 📇 ☁️ - Search engine for agent-usable tools: 38,000+ MCP servers, x402/MPP paid APIs, A2A agents and kits. A2A JSON-RPC `message/send` at `https://agentropolis.io/a2a` with skills `find_kits`, `get_kit` and `call_kit` (non-custodial x402 pass-through); trust scores come only from verified payments. Also exposes an MCP server at `https://agentropolis.io/api/mcp`. [Agent Card](https://agentropolis.io/.well-known/agent-card.json)
 
+- [SpecStream](https://specstream.ai/agents) 🐍 ☁️ - Live web data from a request in plain words: companies, local businesses, people at companies, job posts, filings, tenders and grants, every value with the page it came from. Each request is priced before it runs and you pay only for matches. Without credentials it reads the request back and quotes it; with a SpecStream API key or OAuth token it runs the approved maximum and returns the rows as a data artifact. A2A 1.0 and 0.3 JSON-RPC at `https://api.specstream.ai/a2a`. Also exposes an MCP server at `https://api.specstream.ai/mcp` (97 tools). [Agent Card](https://api.specstream.ai/.well-known/agent-card.json)
+
 ### 💬 <a name="communication-services"></a>Communication Services
 
 A2A servers for messaging, email, and other communication tools.
