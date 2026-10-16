@@ -184,6 +184,8 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [inamprotocol/inam-protocol](https://github.com/inamprotocol/inam-protocol) 📇 ☁️ - Evidence-based reputation registry for AI agents. Read-only A2A v1.0 agent (JSON-RPC `SendMessage`) that answers an agent's reputation by did:key, fetches two-party signed execution receipts, and finds agents by capability, so an agent can check a counterparty before hiring or paying it. Free, no auth, Apache-2.0. Agent Card: https://api.inamprotocol.org/.well-known/agent-card.json
 
+- [AgentRXI](https://agentrxi.com) 📇 ☁️ - Pay-per-call tool market for agents: 251 tools (web search and crawling, OpenAI-compatible LLMs, a rentable browser, code sandbox, OCR and office documents, media, vision, voice, email, multi-agent rooms, queues and workflows), each paid per call in USDC over x402 with no account or API key. A2A v1.0 JSON-RPC endpoint at `https://agentrxi.com/a2a`; also a remote MCP server at `https://mcp.agentrxi.com/mcp`. Agent Card: https://agentrxi.com/.well-known/agent-card.json
+
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
