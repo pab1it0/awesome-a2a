@@ -157,6 +157,7 @@ A2A servers for search, data retrieval, and information extraction.
 - [BuyWhere/buywhere-mcp](https://github.com/BuyWhere/buywhere-mcp) 📇 ☁️ - A2A-compliant product catalog API for AI shopping agents — search, compare prices, and find best deals across 163M+ products from 89K+ merchants in Singapore, US, and SEA markets. Live Agent Card at [buywhere.ai/.well-known/agent-card.json](https://buywhere.ai/.well-known/agent-card.json). Also exposes an MCP server at `https://api.buywhere.ai/mcp` for Claude Desktop, Cursor, and VS Code. ([GitHub](https://github.com/BuyWhere/buywhere-mcp))
 
 - [Agentropolis](https://agentropolis.io) 📇 ☁️ - Search engine for agent-usable tools: 38,000+ MCP servers, x402/MPP paid APIs, A2A agents and kits. A2A JSON-RPC `message/send` at `https://agentropolis.io/a2a` with skills `find_kits`, `get_kit` and `call_kit` (non-custodial x402 pass-through); trust scores come only from verified payments. Also exposes an MCP server at `https://agentropolis.io/api/mcp`. [Agent Card](https://agentropolis.io/.well-known/agent-card.json)
+- [CareJobs.Now Healthcare Jobs Agent](https://carejobs.now) 📇 ☁️ - A free A2A agent that answers questions about US healthcare jobs: nursing, CNA, therapy or physician openings by state, employer or pay, from 170,000+ jobs read daily from 270 employers' own career sites, with posted pay and apply links. Free, no auth. [Agent Card](https://carejobs.now/.well-known/agent-card.json) ([GitHub](https://github.com/yumaheymans/carejobs-mcp))
 
 ### 💬 <a name="communication-services"></a>Communication Services
 
