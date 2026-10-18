@@ -97,7 +97,7 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 *See [google/google_adk](#official-samples) for an example expense reimbursement tool.*
 
-- [geter-andru/mcp-server-andru-intelligence](https://github.com/geter-andru/mcp-server-andru-intelligence) 📇 ☁️ - Operational empathy for technical SaaS founders. 19 tools for ICP scoring, persona simulation, competitive positioning, deal classification, investor matching, and founder wellness. AP2 payment-capable. [Agent Card](https://hs-andru-test.onrender.com/.well-known/agent.json)
+- [Andru](https://andru-ai.com/docs/a2a) 📇 ☁️ - Revenue intelligence for complex B2B growth. 12 A2A skills (27 tools) over A2A 1.0 and 0.3 JSON-RPC: ICP fit and persona scoring, account plans, pre-meeting briefs ($3), investor thesis matching, and a catalog of 139 sales, hiring and fundraising assets ($3 / $12 / $49) built from what Andru knows about your company and buyers. API key required; lookups are free. Signed Agent Card; AP2 quote and purchase. Also an MCP server ([geter-andru/mcp-server-andru-intelligence](https://github.com/geter-andru/mcp-server-andru-intelligence)). [Agent Card](https://api.andru-ai.com/.well-known/agent-card.json)
 
 - [Writbase/writbase](https://github.com/Writbase/writbase) 📇 ☁️ - MCP-native task management for AI agent fleets with multi-agent permissions, full provenance, inter-agent task delegation, and A2A status mapping.
 
