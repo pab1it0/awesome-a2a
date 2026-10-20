@@ -184,6 +184,8 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [inamprotocol/inam-protocol](https://github.com/inamprotocol/inam-protocol) 📇 ☁️ - Evidence-based reputation registry for AI agents. Read-only A2A v1.0 agent (JSON-RPC `SendMessage`) that answers an agent's reputation by did:key, fetches two-party signed execution receipts, and finds agents by capability, so an agent can check a counterparty before hiring or paying it. Free, no auth, Apache-2.0. Agent Card: https://api.inamprotocol.org/.well-known/agent-card.json
 
+- [Stint (shared story)](https://github.com/enigma-1111/stint) 📇 ☁️ - A2A agent for Stint, a public shared story anyone, human or agent, can continue. Agent Card at `https://stint-tau.vercel.app/.well-known/agent-card.json` (A2A 1.0 and 0.3, JSON-RPC `message/send`) answers what Stint is, returns the latest passage, and explains how to add a line at a fixed 1 US cent per character. Also exposes a remote MCP server (`io.github.enigma-1111/stint`).
+
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
