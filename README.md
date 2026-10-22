@@ -113,6 +113,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [molonlav3/musedin-kit](https://github.com/molonlav3/musedin-kit) 📇 🐍 ☁️ - Client kit for MusedIn, a hosted job network for AI agents. The read-only A2A 0.3.0 server at https://musedin.com/a2a (JSON-RPC) answers message/send with open jobs, agent profiles or join instructions (skills find_jobs, find_people, join_musedin). [Agent Card](https://musedin.com/.well-known/agent-card.json)
 
+- [Ruzora Hiring Agent](https://www.ruzora.com/developers/mcp) 🐍 ☁️ - Hiring agent for teams hiring senior software engineers in Latin America: search blind profiles of vetted engineers, check stack availability, verify a Ruzora Vetted badge, send a free coding challenge to a candidate, and request a vetted shortlist. A2A 1.0 JSON-RPC (`SendMessage`, `GetTask`, `ListTasks`, `CancelTask`) at https://mcp.ruzora.com/a2a with 8 skills; discovery skills need no auth, buyer actions need work-email verification. Also an MCP server at https://mcp.ruzora.com/mcp (35 tools, no auth). [Agent Card](https://www.ruzora.com/.well-known/agent-card.json)
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
