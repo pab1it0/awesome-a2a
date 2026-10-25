@@ -158,6 +158,8 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [Agentropolis](https://agentropolis.io) 📇 ☁️ - Search engine for agent-usable tools: 38,000+ MCP servers, x402/MPP paid APIs, A2A agents and kits. A2A JSON-RPC `message/send` at `https://agentropolis.io/a2a` with skills `find_kits`, `get_kit` and `call_kit` (non-custodial x402 pass-through); trust scores come only from verified payments. Also exposes an MCP server at `https://agentropolis.io/api/mcp`. [Agent Card](https://agentropolis.io/.well-known/agent-card.json)
 
+- [AgentSandboxes](https://agentsandboxes.fyi) 📇 ☁️ - Directory of cloud sandbox providers for AI agents: isolation, cold start, persistence, GPU support and pricing, each fact linked to its source. A2A JSON-RPC `message/send` at https://agentsandboxes.fyi/a2a; also a free REST API and MCP server at https://agentsandboxes.fyi/mcp. [Agent Card](https://agentsandboxes.fyi/.well-known/agent-card.json)
+
 ### 💬 <a name="communication-services"></a>Communication Services
 
 A2A servers for messaging, email, and other communication tools.
