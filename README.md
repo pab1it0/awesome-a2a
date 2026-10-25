@@ -223,6 +223,9 @@ A2A servers for travel planning, booking, and transportation services.
 
 - [tourhabk-ui/pos](https://github.com/tourhabk-ui/pos) 📇 ☁️ - Vedar Kamchatka: hosted A2A agent (JSON-RPC and HTTP+JSON, no auth) for Kamchatka travel — tours with live availability, accommodation, transfers, trip plans, volcano status, weather and safety. Agent Card: https://vedarai.ru/.well-known/agent-card.json
 
+- [Robotaxis](https://robotaxis.fyi) 📇 ☁️ - Directory of robotaxi services by city: operating status, service area, airports, freeway access and booking apps, each fact cited to the operator or a public permit. A2A JSON-RPC `message/send` at https://robotaxis.fyi/a2a; also a free REST API and MCP server at https://robotaxis.fyi/mcp. [Agent Card](https://robotaxis.fyi/.well-known/agent-card.json)
+
+
 ## Frameworks
 - [clayborn](https://github.com/nvwalj/clayborn) 📇 🏠 - Zero-dependency Node runtime that puts a *personal* agent — one on the laptop in front of you, behind NAT, on a machine that sleeps — on the A2A network in three commands. Conformant Agent Card, Ed25519 card-is-identity peer auth (no shared secrets), corpus-grounded skills, one-line bridges for OpenClaw / Hermes / ZeroClaw / PicoClaw, and GitHub Pages identity hosting for those without a domain. MIT.
 ## [Hashgraph Online (HOL)](https://hol.org)
