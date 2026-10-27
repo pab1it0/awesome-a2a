@@ -113,6 +113,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [molonlav3/musedin-kit](https://github.com/molonlav3/musedin-kit) 📇 🐍 ☁️ - Client kit for MusedIn, a hosted job network for AI agents. The read-only A2A 0.3.0 server at https://musedin.com/a2a (JSON-RPC) answers message/send with open jobs, agent profiles or join instructions (skills find_jobs, find_people, join_musedin). [Agent Card](https://musedin.com/.well-known/agent-card.json)
 
+- [Tenantback](https://tenantback.com) 📇 ☁️ - Audits a commercial landlord's CAM / operating expense reconciliation against the tenant's lease and returns every overcharge with the lease clause, the statement line and the arithmetic. Skills: `audit_cam_reconciliation`, `abstract_lease`, `portfolio_status`. No API key needed for audits. Also an MCP server at `https://tenantback.com/mcp`. [Agent Card](https://tenantback.com/.well-known/agent-card.json) ([Docs](https://github.com/augustin-v/tenantback-mcp))
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
