@@ -158,6 +158,8 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [Agentropolis](https://agentropolis.io) 📇 ☁️ - Search engine for agent-usable tools: 38,000+ MCP servers, x402/MPP paid APIs, A2A agents and kits. A2A JSON-RPC `message/send` at `https://agentropolis.io/a2a` with skills `find_kits`, `get_kit` and `call_kit` (non-custodial x402 pass-through); trust scores come only from verified payments. Also exposes an MCP server at `https://agentropolis.io/api/mcp`. [Agent Card](https://agentropolis.io/.well-known/agent-card.json)
 
+- [SitePatent Listing Search Agent](https://sitepatent.com) 📇 ☁️ - Read-only A2A agent for SitePatent, a reviewed directory of startups, tools and online products. Send a plain-text query with `SendMessage` and get a completed task whose JSON artifact lists matching approved listings (title, slug, URL path, tagline, categories). One skill (`search-listings`), A2A 1.0 JSON-RPC at `https://sitepatent.com/api/a2a`, public data, no account or API key. Also a remote MCP server at `https://sitepatent.com/api/mcp`. [Agent Card](https://sitepatent.com/.well-known/agent-card.json)
+
 ### 💬 <a name="communication-services"></a>Communication Services
 
 A2A servers for messaging, email, and other communication tools.
