@@ -209,6 +209,8 @@ A2A servers for knowledge management, document handling, and information extract
 
 - [VOLO](https://flyvolo.ai) 📇 ☁️ - How AI, robotics, autonomous driving and process automation are changing specific occupations and degrees, task by task: every judgement is marked evidenced (by verified public records) or inferred, with what it does not establish, and it never gives a probability of job loss, a year or a score. Six languages. Skills: `ask` (natural-language answers from VOLO's own assessments), `occupation-assessment` and `knowledge-tools` (deterministic JSON). Public, no key; A2A 1.0 and 0.3 JSON-RPC at https://mcp.flyvolo.ai/a2a, and an MCP server at https://mcp.flyvolo.ai/mcp. [Agent Card](https://flyvolo.ai/.well-known/agent-card.json)
 
+- [David-Porto-Baraldes/Viveka_Web](https://github.com/David-Porto-Baraldes/Viveka_Web) 🐍 ☁️ 🏠 🐧 - Deterministic Swiss Ephemeris (`pyswisseph`, `< 1.5 ms`) 7-Wisdoms, 4-Elements, and 3D Synastry oracle (`https://homouniversalis.ai`). Linux Foundation / OpenSSF Best Practices Gold certified (`#16118 — 300%`), RFC 7515 `ES256` JWS + RFC 8785 JCS signed A2A v1.0 & v0.3 Dual Card (`https://homouniversalis.ai/a2a`), and Zero-Auth MCP server (`https://homouniversalis.ai/mcp`). [Agent Card](https://homouniversalis.ai/.well-known/agent-card.json)
+
 ### 📊 <a name="data-services"></a>Data Services
 
 A2A servers for data processing, analytics, and database integration.
