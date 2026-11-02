@@ -158,6 +158,8 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [Agentropolis](https://agentropolis.io) 📇 ☁️ - Search engine for agent-usable tools: 38,000+ MCP servers, x402/MPP paid APIs, A2A agents and kits. A2A JSON-RPC `message/send` at `https://agentropolis.io/a2a` with skills `find_kits`, `get_kit` and `call_kit` (non-custodial x402 pass-through); trust scores come only from verified payments. Also exposes an MCP server at `https://agentropolis.io/api/mcp`. [Agent Card](https://agentropolis.io/.well-known/agent-card.json)
 
+- [kikiyop1101/boim-mcp](https://github.com/kikiyop1101/boim-mcp) ☁️ - BOIM — free, read-only A2A 1.0 agent for finding Korean businesses (about 2.7M nationwide, every industry), vendors with public procurement records and live public-sector bid notices. Live Agent Card at [boim.io/.well-known/agent-card.json](https://boim.io/.well-known/agent-card.json), JSON-RPC `SendMessage` (and legacy `message/send`) at `https://boim.io/api/a2a`; also an MCP server at `https://boim.io/api/mcp`.
+
 ### 💬 <a name="communication-services"></a>Communication Services
 
 A2A servers for messaging, email, and other communication tools.
