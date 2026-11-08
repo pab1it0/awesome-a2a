@@ -213,6 +213,7 @@ A2A servers for software development, coding, version control, and DevOps.
 A2A servers for knowledge management, document handling, and information extraction.
 
 - [VOLO](https://flyvolo.ai) 📇 ☁️ - How AI, robotics, autonomous driving and process automation are changing specific occupations and degrees, task by task: every judgement is marked evidenced (by verified public records) or inferred, with what it does not establish, and it never gives a probability of job loss, a year or a score. Six languages. Skills: `ask` (natural-language answers from VOLO's own assessments), `occupation-assessment` and `knowledge-tools` (deterministic JSON). Public, no key; A2A 1.0 and 0.3 JSON-RPC at https://mcp.flyvolo.ai/a2a, and an MCP server at https://mcp.flyvolo.ai/mcp. [Agent Card](https://flyvolo.ai/.well-known/agent-card.json)
+- [Psychologie & Sérénité](https://psychologieetserenite.com) ☁️ - Read-only A2A advisor over a French psychology publisher's public catalogue: recommends anonymous self-assessment tests and books, presents couple-conversation analysis and video consultation, in French and English. No account or API key; informational only, it makes no diagnosis and offers no paid service in a distress situation. A2A 1.0 JSON-RPC at `https://psychologieetserenite.com/a2a`, HTTP+JSON at `https://psychologieetserenite.com/a2a/v1`; MCP server at `https://psychologieetserenite.com/mcp`. [Agent Card](https://psychologieetserenite.com/.well-known/agent-card.json).
 
 ### 📊 <a name="data-services"></a>Data Services
 
