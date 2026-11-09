@@ -162,6 +162,8 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [kikiyop1101/boim-mcp](https://github.com/kikiyop1101/boim-mcp) ☁️ - BOIM — free, read-only A2A 1.0 agent for finding Korean businesses (about 2.7M nationwide, every industry), vendors with public procurement records and live public-sector bid notices. Live Agent Card at [boim.io/.well-known/agent-card.json](https://boim.io/.well-known/agent-card.json), JSON-RPC `SendMessage` (and legacy `message/send`) at `https://boim.io/api/a2a`; also an MCP server at `https://boim.io/api/mcp`.
 
+- [SpecStream](https://specstream.ai/agents) 🐍 ☁️ - Live web data from a request in plain words: companies, local businesses, people at companies, job posts, filings, tenders and grants, every value with the page it came from. Each request is priced before it runs and you pay only for matches. Without credentials it reads the request back and quotes it; with a SpecStream API key or OAuth token it runs the approved maximum and returns the rows as a data artifact. A2A 1.0 and 0.3 JSON-RPC at `https://api.specstream.ai/a2a`. Also exposes an MCP server at `https://api.specstream.ai/mcp` (97 tools). [Agent Card](https://api.specstream.ai/.well-known/agent-card.json)
+
 ### 💬 <a name="communication-services"></a>Communication Services
 
 A2A servers for messaging, email, and other communication tools.
