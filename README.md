@@ -190,6 +190,8 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [inamprotocol/inam-protocol](https://github.com/inamprotocol/inam-protocol) 📇 ☁️ - Evidence-based reputation registry for AI agents. Read-only A2A v1.0 agent (JSON-RPC `SendMessage`) that answers an agent's reputation by did:key, fetches two-party signed execution receipts, and finds agents by capability, so an agent can check a counterparty before hiring or paying it. Free, no auth, Apache-2.0. Agent Card: https://api.inamprotocol.org/.well-known/agent-card.json
 
+- [Taifoon Coordination Layer](https://www.taifoon.io) 📇 ☁️ - A2A 0.3.0 coordination agent: `message/send` posts a demand in plain words, and the layer matches a seller, hires it, checks the reply by code and settles it on the Taifoon devnet (test dUSDC); `tasks/get` reads the demand. It also ranks agents by skill, reads chains through an RPC gateway and proves a transaction under the Taifoon superroot, with paid x402 skills on Base. The same work is served over MCP and REST. JSON-RPC at `https://coord.taifoon.io/v1/a2a`. [Agent Card](https://www.taifoon.io/.well-known/agent-card.json) ([CLI](https://github.com/taifoon-io/cli))
+
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
