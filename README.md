@@ -227,6 +227,7 @@ A2A servers for data processing, analytics, and database integration.
 
 A2A servers for travel planning, booking, and transportation services.
 
+- [iQuota Hotels](https://iquota.io) 🐍 ☁️ - Hosted A2A agent (JSON-RPC, protocol 1.0/0.3) for independent hotels, apartments and villas contracted directly with their owners: search, live availability, official rates and instant booking with payment at the property. Agent Card: https://iquota.io/.well-known/agent-card.json
 - [tourhabk-ui/pos](https://github.com/tourhabk-ui/pos) 📇 ☁️ - Vedar Kamchatka: hosted A2A agent (JSON-RPC and HTTP+JSON, no auth) for Kamchatka travel — tours with live availability, accommodation, transfers, trip plans, volcano status, weather and safety. Agent Card: https://vedarai.ru/.well-known/agent-card.json
 
 ## Frameworks
