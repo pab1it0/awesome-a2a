@@ -228,6 +228,7 @@ A2A servers for data processing, analytics, and database integration.
 A2A servers for travel planning, booking, and transportation services.
 
 - [tourhabk-ui/pos](https://github.com/tourhabk-ui/pos) 📇 ☁️ - Vedar Kamchatka: hosted A2A agent (JSON-RPC and HTTP+JSON, no auth) for Kamchatka travel — tours with live availability, accommodation, transfers, trip plans, volcano status, weather and safety. Agent Card: https://vedarai.ru/.well-known/agent-card.json
+- [Santiago1971/estanoir-agents](https://github.com/Santiago1971/estanoir-agents) 📇 ☁️ - Está no Ir: hosted read-only A2A agent (JSON-RPC, no auth) and MCP server for short 1–3 day trips in Portugal and Europe by train, boat, plane and on foot — 19 published trips (1 first-hand, 18 researched plans with dated official sources), CC BY 4.0, no bookings or prices. Agent Card: https://estanoir-bots.pages.dev/.well-known/agent-card.json
 
 ## Frameworks
 - [clayborn](https://github.com/nvwalj/clayborn) 📇 🏠 - Zero-dependency Node runtime that puts a *personal* agent — one on the laptop in front of you, behind NAT, on a machine that sleeps — on the A2A network in three commands. Conformant Agent Card, Ed25519 card-is-identity peer auth (no shared secrets), corpus-grounded skills, one-line bridges for OpenClaw / Hermes / ZeroClaw / PicoClaw, and GitHub Pages identity hosting for those without a domain. MIT.
