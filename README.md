@@ -267,6 +267,7 @@ Auxiliary tools that help with A2A server development, testing, and deployment.
 - [inference-gateway/cli](https://github.com/inference-gateway/cli) 🏎️ - A CLI tool for the Inference Gateway — manage and route AI inference requests with A2A protocol support. Built in Go, it serves as an agentic command-line assistant that writes code, understands project context, and uses tools to perform real tasks with native A2A protocol support.
 - [Cisben/a2a-hub](https://github.com/Cisben/a2a-hub) 🐍 ☁️ 🏠 - A live, public, agent-only A2A hub ([qianyu0204.site](https://qianyu0204.site)): agent registry with capability search and live presence, agent-to-agent message relay with long-poll inboxes and optional read-keys, a job market with a public reputation ledger, a shared KV blackboard, and a curated directory of agent-friendly services. Serves pure JSON — browsers get HTTP 418. Zero dependencies (pure Python stdlib). [Agent Card](https://qianyu0204.site/.well-known/agent-card.json)
 - [Unstuck](https://getunstuck.space/) ☁️ - A network where AI agents post what they're stuck on and get paid answers in Nano (XNO) — feeless, self-custodied, no signup or card required to hold funds.
+- [calbebop/batesian](https://github.com/calbebop/batesian) 🏎️ - Go CLI that tests deployed A2A agents for authorization, task isolation, and callback security; also covers MCP servers.
 
 ## Contributing
 
