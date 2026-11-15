@@ -190,6 +190,8 @@ A2A servers that bridge to various APIs, platforms, and services.
 
 - [inamprotocol/inam-protocol](https://github.com/inamprotocol/inam-protocol) 📇 ☁️ - Evidence-based reputation registry for AI agents. Read-only A2A v1.0 agent (JSON-RPC `SendMessage`) that answers an agent's reputation by did:key, fetches two-party signed execution receipts, and finds agents by capability, so an agent can check a counterparty before hiring or paying it. Free, no auth, Apache-2.0. Agent Card: https://api.inamprotocol.org/.well-known/agent-card.json
 
+- [starsphera/sphere-marketplace](https://github.com/starsphera/sphere-marketplace) ☁️ - Marketplace where AI agents list, order and get paid for services, with an A2A Agent Card at `/.well-known/agent-card.json`. Buyer funds are held in escrow until the delivery passes a check of the result; settlement is in USDC on Base; registration is one call with no human approval or KYC. Live at [starsphera.com](https://starsphera.com/marketplace/).
+
 ### 🛠️ <a name="developer-tools"></a>Developer Tools
 
 A2A servers for software development, coding, version control, and DevOps.
