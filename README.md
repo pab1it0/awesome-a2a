@@ -142,6 +142,8 @@ A2A servers for financial operations, currency conversion, and financial data.
 - [APEX Faucet](https://apexfaucet.xyz) 📇 ☁️ - A2A agent (Flux) for Arc and X1: token exit checks (can you sell it again?) on eight chains, Arc launch feeds and yield vaults, paid per call over x402 in USDC on Arc, Base or Solana. Agent card at `https://apexfaucet.xyz/.well-known/agent-card.json`; also runs a free USDC faucet on Arc mainnet.
 - [agentsvc.io](https://agentsvc.io) 📇 ☁️ - 111 pay-per-call web services for AI agents, paid per request in USDC over x402 on Base, Solana, Polygon or Arbitrum, with no account or API key. Skills include token-precheck (ALLOW/CAUTION/BLOCK before a swap, honeypot simulation), token-verdict, company-brief (LEI, VAT, sanctions), web-scrape to Markdown, screenshot, prompt-injection-check and iota-notarize. A2A 0.3.0 agent card with HTTP+JSON transport, a free sample per skill, and an MCP server at `https://agentsvc.io/mcp`. [Agent Card](https://agentsvc.io/.well-known/agent-card.json) ([GitHub](https://github.com/agentsvc/agentsvc))
 
+- [RugRadar](https://rugradar-bgcm.onrender.com) 📇 ☁️ - Read-only Solana rug and scam checks for agents: a 0-100 risk score, red flags, public wallet scans and drainer-link scans over A2A JSON-RPC `message/send` at https://rugradar-bgcm.onrender.com/a2a. [Agent Card](https://rugradar-bgcm.onrender.com/.well-known/agent-card.json)
+
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
 A2A servers for search, data retrieval, and information extraction.
