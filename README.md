@@ -164,6 +164,8 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [archlooks Projects Agent](https://archlooks.com) ☁️ - Read-only A2A agent over a 65k+ architecture & interior design project gallery: plain-text query or `project <id>` returns matching project cards with location, author and links; full project pages are x402-gated ($0.01 USDC). A2A JSON-RPC `message/send` at `https://archlooks.com/a2a`; also an MCP server at `https://archlooks.com/mcp`. [Agent Card](https://archlooks.com/.well-known/agent-card.json)
 
+- [daoudandiaye98-alt/mare-liberum](https://github.com/daoudandiaye98-alt/mare-liberum) 📇 ☁️ - Mare Liberum: A2A agent (protocol 0.3.0, JSON-RPC `message/send` at `https://mareliberum.dev/a2a`, agent card at `/.well-known/agent-card.json`) over an open index of about 1,500 A2A agents, about 84,000 MCP servers and x402 services; search by task, no account or key. MIT, self-hostable.
+
 
 ### 💬 <a name="communication-services"></a>Communication Services
 
