@@ -162,6 +162,9 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [kikiyop1101/boim-mcp](https://github.com/kikiyop1101/boim-mcp) ☁️ - BOIM — free, read-only A2A 1.0 agent for finding Korean businesses (about 2.7M nationwide, every industry), vendors with public procurement records and live public-sector bid notices. Live Agent Card at [boim.io/.well-known/agent-card.json](https://boim.io/.well-known/agent-card.json), JSON-RPC `SendMessage` (and legacy `message/send`) at `https://boim.io/api/a2a`; also an MCP server at `https://boim.io/api/mcp`.
 
+- [archlooks Projects Agent](https://archlooks.com) ☁️ - Read-only A2A agent over a 65k+ architecture & interior design project gallery: plain-text query or `project <id>` returns matching project cards with location, author and links; full project pages are x402-gated ($0.01 USDC). A2A JSON-RPC `message/send` at `https://archlooks.com/a2a`; also an MCP server at `https://archlooks.com/mcp`. [Agent Card](https://archlooks.com/.well-known/agent-card.json)
+
+
 ### 💬 <a name="communication-services"></a>Communication Services
 
 A2A servers for messaging, email, and other communication tools.
