@@ -166,6 +166,8 @@ A2A servers for search, data retrieval, and information extraction.
 
 - [daoudandiaye98-alt/mare-liberum](https://github.com/daoudandiaye98-alt/mare-liberum) 📇 ☁️ - Mare Liberum: A2A agent (protocol 0.3.0, JSON-RPC `message/send` at `https://mareliberum.dev/a2a`, agent card at `/.well-known/agent-card.json`) over an open index of about 1,500 A2A agents, about 84,000 MCP servers and x402 services; search by task, no account or key. MIT, self-hostable.
 
+- [Swarmnest](https://swarmnest.ai) 📇 ☁️ - Read-only A2A agent (JSON-RPC `message/send`, agent card at `/.well-known/agent-card.json`) that answers a plain-text need such as "MCP server for Postgres" with the top 5 matches, each with a link, from a directory of 4,000+ AI agent tools, MCP servers and APIs.
+
 
 ### 💬 <a name="communication-services"></a>Communication Services
 
