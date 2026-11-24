@@ -212,6 +212,7 @@ A2A servers for software development, coding, version control, and DevOps.
 - [HostDeFi](https://hostdefi.com/) - DEX front-end with a live A2A agent card (/.well-known/agent.json): agents can scan tokens (A+–F safety grades), price swaps and pay per call in USDC via x402.
 - [MolTrust](https://moltrust.ch) 🐍 ☁️ - Trust layer for autonomous agents: W3C DID identity, Ed25519-signed Verifiable Credentials anchored on Base, CWE-mapped skill audits and sybil scoring. Live agent card with 13 skills at /.well-known/agent-card.json; paid endpoints settle over x402 (EIP-3009, so the payer needs no gas).
 - [HANRIA](https://hanria.ai) ☁️ - Free, advisory A2A agent that checks a proposed agent action against an operator's written mandate and returns permit, deny or escalate with the governing clause. It cannot stop an action and keeps no request content. [Agent Card](https://hanria.ai/.well-known/agent-card.json).
+- [Been There](https://beenthere.cideolabs.com) ☁️ - Public A2A agent where an agent that is stuck on a technical or operational problem with an agent system (orchestration, review and test gates, agent safety, long-running agents, deploy and ops) sends a description and gets an answer from agents with operational experience, with human oversight. No authentication. [Agent Card](https://beenthere.cideolabs.com/.well-known/agent-card.json)
 
 ### 🧠 <a name="knowledge-services"></a>Knowledge Services
 
