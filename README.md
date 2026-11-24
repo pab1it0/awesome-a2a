@@ -121,6 +121,7 @@ A2A servers for generating and manipulating images.
 
 ### 💱 <a name="financial-services"></a>Financial Services
 
+- [CoachyBit/apix402data-mcp](https://github.com/CoachyBit/apix402data-mcp) - Live A2A v1.0 & MCP Streamable HTTP data service (`https://apix402data.com/.well-known/agent-card.json`) with 46 crypto, DeFi, EVM pre-flight security, SEC EDGAR, and web-intelligence skills settled via x402 Base USDC & Stripe MPP (10 free preview calls).
 A2A servers for financial operations, currency conversion, and financial data.
 
 *See [google/langgraph](#official-samples) for an example currency conversion tool.*
