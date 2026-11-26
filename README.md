@@ -229,6 +229,8 @@ A2A servers for data processing, analytics, and database integration.
 - [AgentRisk](https://agentrisk.dev) 🐍 ☁️ - Pre-trade risk scoring for Base tokens: honeypot detection, deployer wallet freshness, brand impersonation, and LP lock status cross-checked on-chain. Returns a risk score, human-readable verdict, and an explicit confidence flag when key data is missing. $0.15 USDC per call via x402 on Base. Agent Card: [agentrisk.dev/.well-known/agent.json](https://agentrisk.dev/.well-known/agent.json)
 - [Bosco-Labs/bosco-labs-data](https://github.com/Bosco-Labs/bosco-labs-data) 🐍 ☁️ - Official-source data for agents (SEC EDGAR, company registers, sanctions lists, EU and national law, openFDA) with a source URL on every row. 31 skills over A2A; the same tools are also available as MCP servers and as x402 pay-per-call REST. [Agent Card](https://api.boscolabs.dev/.well-known/agent-card.json)
 
+- [agent-card-json/Agent-Card-json-402x](https://github.com/agent-card-json/Agent-Card-json-402x) ☁️ - Dealwork MegaWorkers is a hosted A2A multi-worker service with eight workers for bulk URL checks, archive/document parsing, media transcoding, subtitle generation and video splitting, plus Gemini text/code generation. Live at [Railway](https://practical-ambition-production.up.railway.app). [Agent Card](https://practical-ambition-production.up.railway.app/.well-known/agent.json).
+
 ### 🚆 <a name="travel-and-transportation"></a>Travel & Transportation
 
 A2A servers for travel planning, booking, and transportation services.
