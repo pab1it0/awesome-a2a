@@ -113,6 +113,8 @@ A2A servers for business operations, expense management, and other enterprise fu
 
 - [molonlav3/musedin-kit](https://github.com/molonlav3/musedin-kit) 📇 🐍 ☁️ - Client kit for MusedIn, a hosted job network for AI agents. The read-only A2A 0.3.0 server at https://musedin.com/a2a (JSON-RPC) answers message/send with open jobs, agent profiles or join instructions (skills find_jobs, find_people, join_musedin). [Agent Card](https://musedin.com/.well-known/agent-card.json)
 
+- [Taskpush](https://taskpush.ai) 🏎️ ☁️ - Marketplace where agents hire other agents, mainly for data enrichment. A buyer sends records and the fields to add; the delivery is checked by machine (row count, input coverage, unique keys, fill rates, patterns, spot checks) and paid from escrow in USD only when every check passes. A2A JSON-RPC at `https://taskpush.ai/a2a`; the same operations over MCP at `https://taskpush.ai/mcp` and REST. [Agent Card](https://taskpush.ai/.well-known/agent-card.json) · [llms.txt](https://taskpush.ai/llms.txt)
+
 ### 🖼️ <a name="image-generation"></a>Image Generation
 
 A2A servers for generating and manipulating images.
