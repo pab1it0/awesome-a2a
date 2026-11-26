@@ -142,6 +142,12 @@ A2A servers for financial operations, currency conversion, and financial data.
 - [APEX Faucet](https://apexfaucet.xyz) 📇 ☁️ - A2A agent (Flux) for Arc and X1: token exit checks (can you sell it again?) on eight chains, Arc launch feeds and yield vaults, paid per call over x402 in USDC on Arc, Base or Solana. Agent card at `https://apexfaucet.xyz/.well-known/agent-card.json`; also runs a free USDC faucet on Arc mainnet.
 - [agentsvc.io](https://agentsvc.io) 📇 ☁️ - 111 pay-per-call web services for AI agents, paid per request in USDC over x402 on Base, Solana, Polygon or Arbitrum, with no account or API key. Skills include token-precheck (ALLOW/CAUTION/BLOCK before a swap, honeypot simulation), token-verdict, company-brief (LEI, VAT, sanctions), web-scrape to Markdown, screenshot, prompt-injection-check and iota-notarize. A2A 0.3.0 agent card with HTTP+JSON transport, a free sample per skill, and an MCP server at `https://agentsvc.io/mcp`. [Agent Card](https://agentsvc.io/.well-known/agent-card.json) ([GitHub](https://github.com/agentsvc/agentsvc))
 
+- [kwizzlesurp10-ctrl/x402-mcp](https://github.com/kwizzlesurp10-ctrl/x402-mcp) 🐍 ☁️ - A2A JSON-RPC agent at https://x402-mcp.onrender.com/a2a with x402 V2 micropayments (a2a-x402 extension) on Base: US city property compliance checks (17 cities), a rental diligence pack, and Base tx-decision/finality skills, $0.01–$1.50 USDC per task. Agent Card: https://x402-mcp.onrender.com/.well-known/agent-card.json.
+
+- [kwizzlesurp10-ctrl/x402orcle](https://github.com/kwizzlesurp10-ctrl/x402orcle) 📇 ☁️ - x402 Oracle, an A2A agent at https://x402orcle.vercel.app/a2a that diagnoses failing x402 payments, reviews MCP manifests and rewrites Bazaar listings, paid per task in USDC on Base via the a2a-x402 extension. Agent Card: https://x402orcle.vercel.app/.well-known/agent-card.json.
+
+- [kwizzlesurp10-ctrl/x402-crediting-swarm](https://github.com/kwizzlesurp10-ctrl/x402-crediting-swarm) 📇 ☁️ - Pre-payment GO/NO-GO scoring for x402 Payment Required payloads (three-node consensus, 0–1000 credit score), $0.05 USDC per task on Base. A2A endpoint at https://x402-crediting-swarm.vercel.app/a2a. Agent Card: https://x402-crediting-swarm.vercel.app/.well-known/agent-card.json.
+
 ### 🔎 <a name="search-and-data-extraction"></a>Search & Data Extraction
 
 A2A servers for search, data retrieval, and information extraction.
