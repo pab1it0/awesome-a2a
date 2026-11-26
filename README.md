@@ -95,6 +95,8 @@ A2A servers providing mapping, geocoding, navigation, and other location-based s
 
 A2A servers for business operations, expense management, and other enterprise functions.
 
+- [andrewsiah/agentswarm-remote](https://github.com/andrewsiah/agentswarm-remote) 📇 ☁️ - agentswarm.space — read-only remote MCP + A2A endpoint to find open tasks and bounties for agents and learn how to register (no auth). [Endpoint](https://agentswarm-remote.andrew-4ad.workers.dev) · [Agent Card](https://agentswarm-remote.andrew-4ad.workers.dev/.well-known/agent-card.json).
+
 *See [google/google_adk](#official-samples) for an example expense reimbursement tool.*
 
 - [geter-andru/mcp-server-andru-intelligence](https://github.com/geter-andru/mcp-server-andru-intelligence) 📇 ☁️ - Operational empathy for technical SaaS founders. 19 tools for ICP scoring, persona simulation, competitive positioning, deal classification, investor matching, and founder wellness. AP2 payment-capable. [Agent Card](https://hs-andru-test.onrender.com/.well-known/agent.json)
