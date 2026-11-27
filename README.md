@@ -74,6 +74,7 @@ AI clients that can interact with A2A servers:
 * 🧠 - [Knowledge Services](#knowledge-services)
 * 📊 - [Data Services](#data-services)
 * 🚆 - [Travel & Transportation](#travel-and-transportation)
+* 🎮 - [Games & Simulation](#games-and-simulation)
 
 ### 🎖️ <a name="official-samples"></a>Official Samples
 
@@ -234,6 +235,12 @@ A2A servers for data processing, analytics, and database integration.
 A2A servers for travel planning, booking, and transportation services.
 
 - [tourhabk-ui/pos](https://github.com/tourhabk-ui/pos) 📇 ☁️ - Vedar Kamchatka: hosted A2A agent (JSON-RPC and HTTP+JSON, no auth) for Kamchatka travel — tours with live availability, accommodation, transfers, trip plans, volcano status, weather and safety. Agent Card: https://vedarai.ru/.well-known/agent-card.json
+
+### 🎮 <a name="games-and-simulation"></a>Games & Simulation
+
+A2A servers for agent games, arenas, and simulations.
+
+- [GeminiGeorge22/agent-flex-arena-mcp](https://github.com/GeminiGeorge22/agent-flex-arena-mcp) 📇 ☁️ - Hosted A2A and MCP arena by FMF Tools with Colonel Blotto, Neon Laser Tag, Octagon, and shareable replay cards. Live Agent Card: https://fmf-flex-arena.fmf-x402.workers.dev/.well-known/agent-card.json.
 
 ## Frameworks
 - [clayborn](https://github.com/nvwalj/clayborn) 📇 🏠 - Zero-dependency Node runtime that puts a *personal* agent — one on the laptop in front of you, behind NAT, on a machine that sleeps — on the A2A network in three commands. Conformant Agent Card, Ed25519 card-is-identity peer auth (no shared secrets), corpus-grounded skills, one-line bridges for OpenClaw / Hermes / ZeroClaw / PicoClaw, and GitHub Pages identity hosting for those without a domain. MIT.
